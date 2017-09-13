@@ -1,0 +1,1483 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="d:\program files\microsoft visual studio 9.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="1.36">
+ <Namespaces>
+  <Namespace Name="DAl">
+   <Messages>
+    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+     <Issue Certainty="50" Level="Warning">考虑将“DAl”中定义的类型与另一个命名空间合并。</Issue>
+    </Message>
+    <Message Id="Al" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+     <Issue Name="Namespace" Certainty="85" Level="Error">更正命名空间名称“DAl”中“Al”的大小写，将其改为“AL”。</Issue>
+    </Message>
+   </Messages>
+  </Namespace>
+  <Namespace Name="DAl.Entry">
+   <Messages>
+    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+     <Issue Certainty="50" Level="Warning">考虑将“DAl.Entry”中定义的类型与另一个命名空间合并。</Issue>
+    </Message>
+    <Message Id="Al" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+     <Issue Name="Namespace" Certainty="85" Level="Error">更正命名空间名称“DAl.Entry”中“Al”的大小写，将其改为“AL”。</Issue>
+    </Message>
+   </Messages>
+  </Namespace>
+  <Namespace Name="DAl.Map">
+   <Messages>
+    <Message Id="Al" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+     <Issue Name="Namespace" Certainty="85" Level="Error">更正命名空间名称“DAl.Map”中“Al”的大小写，将其改为“AL”。</Issue>
+    </Message>
+   </Messages>
+  </Namespace>
+  <Namespace Name="DAl.Sql">
+   <Messages>
+    <Message Id="Al" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+     <Issue Name="Namespace" Certainty="85" Level="Error">更正命名空间名称“DAl.Sql”中“Al”的大小写，将其改为“AL”。</Issue>
+    </Message>
+   </Messages>
+  </Namespace>
+ </Namespaces>
+ <Targets>
+  <Target Name="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\bin\Debug\DAl.dll">
+   <Modules>
+    <Module Name="dal.dll">
+     <Messages>
+      <Message TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="NonBreaking">
+       <Issue Name="NoStrongName" Certainty="95" Level="CriticalError">用强名称密钥对 'DAl.dll' 进行签名。</Issue>
+      </Message>
+      <Message Id="Al" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+       <Issue Name="Assembly" Certainty="85" Level="Error">更正程序集名称 'DAl.dll' 中“Al”的大小写，将其改为“AL”。</Issue>
+      </Message>
+      <Message TypeName="MarkAssembliesWithClsCompliant" Category="Microsoft.Design" CheckId="CA1014" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="NonBreaking">
+       <Issue Certainty="95" Level="Error">使用 CLSCompliant(true)来标记 'DAl.dll'，因为它公开外部可见的类型。</Issue>
+      </Message>
+     </Messages>
+     <Namespaces>
+      <Namespace Name="DAl">
+       <Types>
+        <Type Name="Common" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="StaticHolderTypesShouldNotHaveConstructors" Category="Microsoft.Design" CheckId="CA1053" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+           <Issue Certainty="90" Level="Error">从 'Common' 中移除公共构造函数。</Issue>
+          </Message>
+          <Message TypeName="TypeNamesShouldNotMatchNamespaces" Category="Microsoft.Naming" CheckId="CA1724" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+           <Issue Name="System" Certainty="95" Level="Error">类型名 'Common' 与在 .NET Framework 中定义的命名空间名称“System.Data.Common”整体或部分冲突。请重命名该类型以消除冲突。</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#GetMaxNum(System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Table" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl" File="Common.cs" Line="13">在成员 'Common.GetMaxNum(string)' 中，更正参数名称 'TableName' 中“Table”的大小写，将其改为“table”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetMaxNum(System.String,DAl.Sql.DbSession)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Table" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl" File="Common.cs" Line="22">在成员 'Common.GetMaxNum(string, DbSession)' 中，更正参数名称 'TableName' 中“Table”的大小写，将其改为“table”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="DAl.Entry">
+       <Types>
+        <Type Name="EntryMap`1" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#_collect" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUnusedPrivateFields" Category="Microsoft.Performance" CheckId="CA1823" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning">似乎从未使用过字段 'EntryMap&lt;T&gt;._collect' 或只对它进行过赋值。请使用此字段或将它移除。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Collect" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Warning" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryMap.cs" Line="32">通过移除属性 setter 将 'EntryMap&lt;T&gt;.Collect' 更改为只读。</Issue>
+            </Message>
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryMap.cs" Line="32">更改 'EntryMap&lt;T&gt;.Collect' 中的 'List&lt;T&gt;' 以使用 Collection&lt;T&gt;、ReadOnlyCollection&lt;T&gt; 或 KeyedCollection&lt;K,V&gt;</Issue>
+            </Message>
+            <Message TypeName="PropertiesShouldNotBeWriteOnly" Category="Microsoft.Design" CheckId="CA1044" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="DependsOnFix">
+             <Issue Name="AddGetter" Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryMap.cs" Line="32">由于属性 'EntryMap&lt;T&gt;.Collect' 是只写的，因此，要么添加一个可访问性高于或等于 setter 的 getter 属性，要么将该属性转换为方法。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="EntryObject" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="IdentifiersShouldDifferByMoreThanCase" Category="Microsoft.Naming" CheckId="CA1708" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+           <Issue Name="Member" Certainty="95" Level="Error">更改成员名 'Afterstr' 和“afterstr”，使它们的差别不仅仅在于大小写。</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#add()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotRaiseReservedExceptionTypes" Category="Microsoft.Usage" CheckId="CA2201" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="TooGeneric" Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryObject.cs" Line="81">'EntryObject.add()' 创建类型为 'Exception' 的异常，该异常类型不够具体，不应由用户代码引发。如有可能引发此异常实例，请使用其他异常类型。</Issue>
+            </Message>
+            <Message Id="add" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryObject.cs" Line="61">更正成员名称 'EntryObject.add()' 中“add”的大小写，将其改为“Add”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#afterstr()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="afterstr" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryObject.cs" Line="47">更正成员名称 'EntryObject.afterstr()' 中“afterstr”的大小写，将其改为“Afterstr”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#beforestr()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="beforestr" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryObject.cs" Line="29">更正成员名称 'EntryObject.beforestr()' 中“beforestr”的大小写，将其改为“Beforestr”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#dd" Kind="Field" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">由于字段 'EntryObject.dd' 在其声明类型的外部可见，因此，请将它的可访问性改为私有，并添加一个与该字段当前的可访问性相同的属性以提供对该属性的访问。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#deleted(System.Boolean)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotRaiseReservedExceptionTypes" Category="Microsoft.Usage" CheckId="CA2201" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="TooGeneric" Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryObject.cs" Line="135">'EntryObject.deleted(bool)' 创建类型为 'Exception' 的异常，该异常类型不够具体，不应由用户代码引发。如有可能引发此异常实例，请使用其他异常类型。</Issue>
+            </Message>
+            <Message Id="deleted" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryObject.cs" Line="120">更正成员名称 'EntryObject.deleted(bool)' 中“deleted”的大小写，将其改为“Deleted”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getinfo(System.Collections.Generic.List`1&lt;System.String&gt;,System.String,System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryObject.cs" Line="170">更改 'EntryObject.getinfo(List&lt;string&gt;, string, string, string)' 中的 'List&lt;string&gt;' 以使用 Collection&lt;T&gt;、ReadOnlyCollection&lt;T&gt; 或 KeyedCollection&lt;K,V&gt;</Issue>
+            </Message>
+            <Message Id="getinfo" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryObject.cs" Line="170">更正成员名称 'EntryObject.getinfo(List&lt;string&gt;, string, string, string)' 中“getinfo”的大小写，将其改为“Getinfo”。</Issue>
+            </Message>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryObject.cs" Line="170">从未使用 'EntryObject.getinfo(List&lt;string&gt;, string, string, string)' 的“this”参数(Visual Basic 中为“Me”)。根据需要，将成员标记为 static (Visual Basic 中为“Shared”)，或者在方法体或至少一个属性访问器中使用“this”/“Me”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getinfo(System.String,DAl.Sql.Fields)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryObject.cs" Line="161">更改 'EntryObject.getinfo(string, Fields)' 中的 'Fields' 以使用 Collection&lt;T&gt;、ReadOnlyCollection&lt;T&gt; 或 KeyedCollection&lt;K,V&gt;</Issue>
+            </Message>
+            <Message Id="F" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryObject.cs" Line="161">在成员 'EntryObject.getinfo(string, Fields)' 中，更正参数名称 'FTableName' 中“F”的大小写，将其改为“f”。</Issue>
+            </Message>
+            <Message Id="getinfo" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryObject.cs" Line="161">更正成员名称 'EntryObject.getinfo(string, Fields)' 中“getinfo”的大小写，将其改为“Getinfo”。</Issue>
+            </Message>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryObject.cs" Line="161">从未使用 'EntryObject.getinfo(string, Fields)' 的“this”参数(Visual Basic 中为“Me”)。根据需要，将成员标记为 static (Visual Basic 中为“Shared”)，或者在方法体或至少一个属性访问器中使用“this”/“Me”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getInstance(DAl.Entry.EntryObject,System.Data.DataSet)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="get" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryObject.cs" Line="217">更正成员名称 'EntryObject.getInstance(EntryObject, DataSet)' 中“get”的大小写，将其改为“Get”。</Issue>
+            </Message>
+            <Message Id="System.Convert.ChangeType(System.Object,System.Type)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryObject.cs" Line="239">由于 'Convert.ChangeType(object, Type)' 的行为可能因当前用户的区域设置不同而不同，请将 'EntryObject.getInstance(EntryObject, DataSet)' 中的此调用替换为对 'Convert.ChangeType(object, Type, IFormatProvider)' 的调用。如果要向用户显示 'Convert.ChangeType(object, Type, IFormatProvider)' 的结果，请将“CultureInfo.CurrentCulture”指定为“IFormatProvider”参数；另外，如果软件将存储和访问此结果(例如，要将它保留到磁盘或数据库中)，则指定“CultureInfo.InvariantCulture”。</Issue>
+             <Issue Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryObject.cs" Line="245">由于 'Convert.ChangeType(object, Type)' 的行为可能因当前用户的区域设置不同而不同，请将 'EntryObject.getInstance(EntryObject, DataSet)' 中的此调用替换为对 'Convert.ChangeType(object, Type, IFormatProvider)' 的调用。如果要向用户显示 'Convert.ChangeType(object, Type, IFormatProvider)' 的结果，请将“CultureInfo.CurrentCulture”指定为“IFormatProvider”参数；另外，如果软件将存储和访问此结果(例如，要将它保留到磁盘或数据库中)，则指定“CultureInfo.InvariantCulture”。</Issue>
+             <Issue Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryObject.cs" Line="278">由于 'Convert.ChangeType(object, Type)' 的行为可能因当前用户的区域设置不同而不同，请将 'EntryObject.getInstance(EntryObject, DataSet)' 中的此调用替换为对 'Convert.ChangeType(object, Type, IFormatProvider)' 的调用。如果要向用户显示 'Convert.ChangeType(object, Type, IFormatProvider)' 的结果，请将“CultureInfo.CurrentCulture”指定为“IFormatProvider”参数；另外，如果软件将存储和访问此结果(例如，要将它保留到磁盘或数据库中)，则指定“CultureInfo.InvariantCulture”。</Issue>
+             <Issue Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryObject.cs" Line="284">由于 'Convert.ChangeType(object, Type)' 的行为可能因当前用户的区域设置不同而不同，请将 'EntryObject.getInstance(EntryObject, DataSet)' 中的此调用替换为对 'Convert.ChangeType(object, Type, IFormatProvider)' 的调用。如果要向用户显示 'Convert.ChangeType(object, Type, IFormatProvider)' 的结果，请将“CultureInfo.CurrentCulture”指定为“IFormatProvider”参数；另外，如果软件将存储和访问此结果(例如，要将它保留到磁盘或数据库中)，则指定“CultureInfo.InvariantCulture”。</Issue>
+             <Issue Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryObject.cs" Line="290">由于 'Convert.ChangeType(object, Type)' 的行为可能因当前用户的区域设置不同而不同，请将 'EntryObject.getInstance(EntryObject, DataSet)' 中的此调用替换为对 'Convert.ChangeType(object, Type, IFormatProvider)' 的调用。如果要向用户显示 'Convert.ChangeType(object, Type, IFormatProvider)' 的结果，请将“CultureInfo.CurrentCulture”指定为“IFormatProvider”参数；另外，如果软件将存储和访问此结果(例如，要将它保留到磁盘或数据库中)，则指定“CultureInfo.InvariantCulture”。</Issue>
+            </Message>
+            <Message TypeName="TestForEmptyStringsUsingStringLength" Category="Microsoft.Performance" CheckId="CA1820" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="NonBreaking">
+             <Issue Name="IsNullOrEmpty" Certainty="95" Level="Warning" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryObject.cs" Line="233">使用“String.IsNullOrEmpty”调用来替换 'EntryObject.getInstance(EntryObject, DataSet)' 中的 'string.operator ==(string, string)' 调用。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getInstance(DAl.Entry.EntryObject,System.Data.DataTable)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="get" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryObject.cs" Line="179">更正成员名称 'EntryObject.getInstance(EntryObject, DataTable)' 中“get”的大小写，将其改为“Get”。</Issue>
+            </Message>
+            <Message Id="System.Convert.ChangeType(System.Object,System.Type)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryObject.cs" Line="204">由于 'Convert.ChangeType(object, Type)' 的行为可能因当前用户的区域设置不同而不同，请将 'EntryObject.getInstance(EntryObject, DataTable)' 中的此调用替换为对 'Convert.ChangeType(object, Type, IFormatProvider)' 的调用。如果要向用户显示 'Convert.ChangeType(object, Type, IFormatProvider)' 的结果，请将“CultureInfo.CurrentCulture”指定为“IFormatProvider”参数；另外，如果软件将存储和访问此结果(例如，要将它保留到磁盘或数据库中)，则指定“CultureInfo.InvariantCulture”。</Issue>
+             <Issue Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryObject.cs" Line="210">由于 'Convert.ChangeType(object, Type)' 的行为可能因当前用户的区域设置不同而不同，请将 'EntryObject.getInstance(EntryObject, DataTable)' 中的此调用替换为对 'Convert.ChangeType(object, Type, IFormatProvider)' 的调用。如果要向用户显示 'Convert.ChangeType(object, Type, IFormatProvider)' 的结果，请将“CultureInfo.CurrentCulture”指定为“IFormatProvider”参数；另外，如果软件将存储和访问此结果(例如，要将它保留到磁盘或数据库中)，则指定“CultureInfo.InvariantCulture”。</Issue>
+            </Message>
+            <Message TypeName="TestForEmptyStringsUsingStringLength" Category="Microsoft.Performance" CheckId="CA1820" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="NonBreaking">
+             <Issue Name="IsNullOrEmpty" Certainty="95" Level="Warning" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryObject.cs" Line="198">使用“String.IsNullOrEmpty”调用来替换 'EntryObject.getInstance(EntryObject, DataTable)' 中的 'string.operator ==(string, string)' 调用。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetMaxID(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryObject.cs" Line="21">更正成员名称 'EntryObject.GetMaxID(string)' 中“ID”的大小写，将其改为“Id”。“Id”是一个缩写词，因此无需遵守首字母缩略词大小写规则。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SetValues(System.Collections.Hashtable)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="System.Convert.ChangeType(System.Object,System.Type)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryObject.cs" Line="156">由于 'Convert.ChangeType(object, Type)' 的行为可能因当前用户的区域设置不同而不同，请将 'EntryObject.SetValues(Hashtable)' 中的此调用替换为对 'Convert.ChangeType(object, Type, IFormatProvider)' 的调用。如果要向用户显示 'Convert.ChangeType(object, Type, IFormatProvider)' 的结果，请将“CultureInfo.CurrentCulture”指定为“IFormatProvider”参数；另外，如果软件将存储和访问此结果(例如，要将它保留到磁盘或数据库中)，则指定“CultureInfo.InvariantCulture”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#update()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotRaiseReservedExceptionTypes" Category="Microsoft.Usage" CheckId="CA2201" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="TooGeneric" Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryObject.cs" Line="110">'EntryObject.update()' 创建类型为 'Exception' 的异常，该异常类型不够具体，不应由用户代码引发。如有可能引发此异常实例，请使用其他异常类型。</Issue>
+            </Message>
+            <Message Id="update" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryObject.cs" Line="91">更正成员名称 'EntryObject.update()' 中“update”的大小写，将其改为“Update”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="EntryOperate`1" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#CheckInfo()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotRaiseReservedExceptionTypes" Category="Microsoft.Usage" CheckId="CA2201" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="TooGeneric" Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryOperate.cs" Line="148">'EntryOperate&lt;T&gt;.CheckInfo()' 创建类型为 'Exception' 的异常，该异常类型不够具体，不应由用户代码引发。如有可能引发此异常实例，请使用其他异常类型。</Issue>
+            </Message>
+            <Message TypeName="TestForEmptyStringsUsingStringLength" Category="Microsoft.Performance" CheckId="CA1820" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="NonBreaking">
+             <Issue Name="IsNullOrEmpty" Certainty="95" Level="Warning" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryOperate.cs" Line="127">使用“String.IsNullOrEmpty”调用来替换 'EntryOperate&lt;T&gt;.CheckInfo()' 中的 'string.operator !=(string, string)' 调用。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#delete(System.Boolean)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="delete" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryOperate.cs" Line="293">更正成员名称 'EntryOperate&lt;T&gt;.delete(bool)' 中“delete”的大小写，将其改为“Delete”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#delete(System.Collections.Generic.List`1&lt;System.String&gt;,System.Collections.Generic.List`1&lt;System.Collections.Generic.List`1&lt;DAl.Sql.Fields&gt;&gt;)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryOperate.cs" Line="337">更改 'EntryOperate&lt;T&gt;.delete(List&lt;string&gt;, List&lt;List&lt;Fields&gt;&gt;)' 中的 'List&lt;List&lt;Fields&gt;&gt;' 以使用 Collection&lt;T&gt;、ReadOnlyCollection&lt;T&gt; 或 KeyedCollection&lt;K,V&gt;</Issue>
+             <Issue Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryOperate.cs" Line="337">更改 'EntryOperate&lt;T&gt;.delete(List&lt;string&gt;, List&lt;List&lt;Fields&gt;&gt;)' 中的 'List&lt;string&gt;' 以使用 Collection&lt;T&gt;、ReadOnlyCollection&lt;T&gt; 或 KeyedCollection&lt;K,V&gt;</Issue>
+            </Message>
+            <Message TypeName="DoNotNestGenericTypesInMemberSignatures" Category="Microsoft.Design" CheckId="CA1006" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="CriticalError" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryOperate.cs" Line="337">考虑 'EntryOperate&lt;T&gt;.delete(List&lt;string&gt;, List&lt;List&lt;Fields&gt;&gt;)' 不嵌套泛型类型 'List&lt;List&lt;Fields&gt;&gt;' 的设计。</Issue>
+            </Message>
+            <Message TypeName="DoNotRaiseReservedExceptionTypes" Category="Microsoft.Usage" CheckId="CA2201" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="TooGeneric" Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryOperate.cs" Line="341">'EntryOperate&lt;T&gt;.delete(List&lt;string&gt;, List&lt;List&lt;Fields&gt;&gt;)' 创建类型为 'Exception' 的异常，该异常类型不够具体，不应由用户代码引发。如有可能引发此异常实例，请使用其他异常类型。</Issue>
+            </Message>
+            <Message Id="delete" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryOperate.cs" Line="337">更正成员名称 'EntryOperate&lt;T&gt;.delete(List&lt;string&gt;, List&lt;List&lt;Fields&gt;&gt;)' 中“delete”的大小写，将其改为“Delete”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#delete(System.String,DAl.Sql.Fields)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryOperate.cs" Line="326">更改 'EntryOperate&lt;T&gt;.delete(string, Fields)' 中的 'Fields' 以使用 Collection&lt;T&gt;、ReadOnlyCollection&lt;T&gt; 或 KeyedCollection&lt;K,V&gt;</Issue>
+            </Message>
+            <Message Id="delete" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryOperate.cs" Line="326">更正成员名称 'EntryOperate&lt;T&gt;.delete(string, Fields)' 中“delete”的大小写，将其改为“Delete”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getfieldstr(System.Collections.Generic.List`1&lt;System.String&gt;)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryOperate.cs" Line="406">从未使用 'EntryOperate&lt;T&gt;.getfieldstr(List&lt;string&gt;)' 的“this”参数(Visual Basic 中为“Me”)。根据需要，将成员标记为 static (Visual Basic 中为“Shared”)，或者在方法体或至少一个属性访问器中使用“this”/“Me”。</Issue>
+            </Message>
+            <Message TypeName="TestForEmptyStringsUsingStringLength" Category="Microsoft.Performance" CheckId="CA1820" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="NonBreaking">
+             <Issue Name="IsNullOrEmpty" Certainty="95" Level="Warning" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryOperate.cs" Line="410">使用“String.IsNullOrEmpty”调用来替换 'EntryOperate&lt;T&gt;.getfieldstr(List&lt;string&gt;)' 中的 'string.operator !=(string, string)' 调用。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetPkFeilds(DAl.Sql.Fields,System.String[])" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryOperate.cs" Line="175">从未使用 'EntryOperate&lt;T&gt;.GetPkFeilds(Fields, string[])' 的“this”参数(Visual Basic 中为“Me”)。根据需要，将成员标记为 static (Visual Basic 中为“Shared”)，或者在方法体或至少一个属性访问器中使用“this”/“Me”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#insert()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="insert" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryOperate.cs" Line="189">更正成员名称 'EntryOperate&lt;T&gt;.insert()' 中“insert”的大小写，将其改为“Insert”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#insert(System.String,DAl.Sql.Fields)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryOperate.cs" Line="204">更改 'EntryOperate&lt;T&gt;.insert(string, Fields)' 中的 'Fields' 以使用 Collection&lt;T&gt;、ReadOnlyCollection&lt;T&gt; 或 KeyedCollection&lt;K,V&gt;</Issue>
+            </Message>
+            <Message Id="insert" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryOperate.cs" Line="204">更正成员名称 'EntryOperate&lt;T&gt;.insert(string, Fields)' 中“insert”的大小写，将其改为“Insert”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#insert(System.String,System.Collections.Generic.List`1&lt;System.String&gt;,DAl.Sql.Fields,System.Collections.Generic.List`1&lt;System.Collections.Generic.List`1&lt;DAl.Sql.Fields&gt;&gt;)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryOperate.cs" Line="217">更改 'EntryOperate&lt;T&gt;.insert(string, List&lt;string&gt;, Fields, List&lt;List&lt;Fields&gt;&gt;)' 中的 'Fields' 以使用 Collection&lt;T&gt;、ReadOnlyCollection&lt;T&gt; 或 KeyedCollection&lt;K,V&gt;</Issue>
+             <Issue Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryOperate.cs" Line="217">更改 'EntryOperate&lt;T&gt;.insert(string, List&lt;string&gt;, Fields, List&lt;List&lt;Fields&gt;&gt;)' 中的 'List&lt;List&lt;Fields&gt;&gt;' 以使用 Collection&lt;T&gt;、ReadOnlyCollection&lt;T&gt; 或 KeyedCollection&lt;K,V&gt;</Issue>
+             <Issue Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryOperate.cs" Line="217">更改 'EntryOperate&lt;T&gt;.insert(string, List&lt;string&gt;, Fields, List&lt;List&lt;Fields&gt;&gt;)' 中的 'List&lt;string&gt;' 以使用 Collection&lt;T&gt;、ReadOnlyCollection&lt;T&gt; 或 KeyedCollection&lt;K,V&gt;</Issue>
+            </Message>
+            <Message TypeName="DoNotNestGenericTypesInMemberSignatures" Category="Microsoft.Design" CheckId="CA1006" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="CriticalError" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryOperate.cs" Line="217">考虑 'EntryOperate&lt;T&gt;.insert(string, List&lt;string&gt;, Fields, List&lt;List&lt;Fields&gt;&gt;)' 不嵌套泛型类型 'List&lt;List&lt;Fields&gt;&gt;' 的设计。</Issue>
+            </Message>
+            <Message TypeName="DoNotRaiseReservedExceptionTypes" Category="Microsoft.Usage" CheckId="CA2201" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="TooGeneric" Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryOperate.cs" Line="223">'EntryOperate&lt;T&gt;.insert(string, List&lt;string&gt;, Fields, List&lt;List&lt;Fields&gt;&gt;)' 创建类型为 'Exception' 的异常，该异常类型不够具体，不应由用户代码引发。如有可能引发此异常实例，请使用其他异常类型。</Issue>
+            </Message>
+            <Message Id="insert" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryOperate.cs" Line="217">更正成员名称 'EntryOperate&lt;T&gt;.insert(string, List&lt;string&gt;, Fields, List&lt;List&lt;Fields&gt;&gt;)' 中“insert”的大小写，将其改为“Insert”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#operaObject" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUnusedPrivateFields" Category="Microsoft.Performance" CheckId="CA1823" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning">似乎从未使用过字段 'EntryOperate&lt;T&gt;.operaObject' 或只对它进行过赋值。请使用此字段或将它移除。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#query()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="query" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryOperate.cs" Line="359">更正成员名称 'EntryOperate&lt;T&gt;.query()' 中“query”的大小写，将其改为“Query”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#query(System.Collections.Generic.List`1&lt;System.String&gt;,System.String,DAl.Sql.Fields)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryOperate.cs" Line="391">更改 'EntryOperate&lt;T&gt;.query(List&lt;string&gt;, string, Fields)' 中的 'Fields' 以使用 Collection&lt;T&gt;、ReadOnlyCollection&lt;T&gt; 或 KeyedCollection&lt;K,V&gt;</Issue>
+             <Issue Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryOperate.cs" Line="391">更改 'EntryOperate&lt;T&gt;.query(List&lt;string&gt;, string, Fields)' 中的 'List&lt;string&gt;' 以使用 Collection&lt;T&gt;、ReadOnlyCollection&lt;T&gt; 或 KeyedCollection&lt;K,V&gt;</Issue>
+            </Message>
+            <Message Id="query" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryOperate.cs" Line="391">更正成员名称 'EntryOperate&lt;T&gt;.query(List&lt;string&gt;, string, Fields)' 中“query”的大小写，将其改为“Query”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#query(System.Collections.Generic.List`1&lt;System.String&gt;,System.String,System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryOperate.cs" Line="432">更改 'EntryOperate&lt;T&gt;.query(List&lt;string&gt;, string, string, string)' 中的 'List&lt;string&gt;' 以使用 Collection&lt;T&gt;、ReadOnlyCollection&lt;T&gt; 或 KeyedCollection&lt;K,V&gt;</Issue>
+            </Message>
+            <Message Id="query" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryOperate.cs" Line="432">更正成员名称 'EntryOperate&lt;T&gt;.query(List&lt;string&gt;, string, string, string)' 中“query”的大小写，将其改为“Query”。</Issue>
+            </Message>
+            <Message TypeName="TestForEmptyStringsUsingStringLength" Category="Microsoft.Performance" CheckId="CA1820" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="NonBreaking">
+             <Issue Name="IsNullOrEmpty" Certainty="95" Level="Warning" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryOperate.cs" Line="435">使用“String.IsNullOrEmpty”调用来替换 'EntryOperate&lt;T&gt;.query(List&lt;string&gt;, string, string, string)' 中的 'string.operator ==(string, string)' 调用。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#query(System.String,DAl.Sql.Fields)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryOperate.cs" Line="374">更改 'EntryOperate&lt;T&gt;.query(string, Fields)' 中的 'Fields' 以使用 Collection&lt;T&gt;、ReadOnlyCollection&lt;T&gt; 或 KeyedCollection&lt;K,V&gt;</Issue>
+            </Message>
+            <Message Id="query" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryOperate.cs" Line="374">更正成员名称 'EntryOperate&lt;T&gt;.query(string, Fields)' 中“query”的大小写，将其改为“Query”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#query(System.String,System.String,DAl.Sql.Fields)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryOperate.cs" Line="378">更改 'EntryOperate&lt;T&gt;.query(string, string, Fields)' 中的 'Fields' 以使用 Collection&lt;T&gt;、ReadOnlyCollection&lt;T&gt; 或 KeyedCollection&lt;K,V&gt;</Issue>
+            </Message>
+            <Message Id="query" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryOperate.cs" Line="378">更正成员名称 'EntryOperate&lt;T&gt;.query(string, string, Fields)' 中“query”的大小写，将其改为“Query”。</Issue>
+            </Message>
+            <Message TypeName="TestForEmptyStringsUsingStringLength" Category="Microsoft.Performance" CheckId="CA1820" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="NonBreaking">
+             <Issue Name="IsNullOrEmpty" Certainty="95" Level="Warning" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryOperate.cs" Line="380">使用“String.IsNullOrEmpty”调用来替换 'EntryOperate&lt;T&gt;.query(string, string, Fields)' 中的 'string.operator ==(string, string)' 调用。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#query(System.String,System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="query" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryOperate.cs" Line="419">更正成员名称 'EntryOperate&lt;T&gt;.query(string, string, string)' 中“query”的大小写，将其改为“Query”。</Issue>
+            </Message>
+            <Message TypeName="TestForEmptyStringsUsingStringLength" Category="Microsoft.Performance" CheckId="CA1820" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="NonBreaking">
+             <Issue Name="IsNullOrEmpty" Certainty="95" Level="Warning" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryOperate.cs" Line="421">使用“String.IsNullOrEmpty”调用来替换 'EntryOperate&lt;T&gt;.query(string, string, string)' 中的 'string.operator ==(string, string)' 调用。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ResolveTables(System.Type,System.Object)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="TestForEmptyStringsUsingStringLength" Category="Microsoft.Performance" CheckId="CA1820" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="NonBreaking">
+             <Issue Name="IsNullOrEmpty" Certainty="95" Level="Warning" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryOperate.cs" Line="109">使用“String.IsNullOrEmpty”调用来替换 'EntryOperate&lt;T&gt;.ResolveTables(Type, object)' 中的 'string.operator !=(string, string)' 调用。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#update()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="update" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryOperate.cs" Line="246">更正成员名称 'EntryOperate&lt;T&gt;.update()' 中“update”的大小写，将其改为“Update”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#update(System.String,DAl.Sql.Fields,DAl.Sql.Fields)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryOperate.cs" Line="279">更改 'EntryOperate&lt;T&gt;.update(string, Fields, Fields)' 中的 'Fields' 以使用 Collection&lt;T&gt;、ReadOnlyCollection&lt;T&gt; 或 KeyedCollection&lt;K,V&gt;</Issue>
+             <Issue Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryOperate.cs" Line="279">更改 'EntryOperate&lt;T&gt;.update(string, Fields, Fields)' 中的 'Fields' 以使用 Collection&lt;T&gt;、ReadOnlyCollection&lt;T&gt; 或 KeyedCollection&lt;K,V&gt;</Issue>
+            </Message>
+            <Message Id="update" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="EntryOperate.cs" Line="279">更正成员名称 'EntryOperate&lt;T&gt;.update(string, Fields, Fields)' 中“update”的大小写，将其改为“Update”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="SqlCheck" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotInitializeUnnecessarily" Category="Microsoft.Performance" CheckId="CA1805" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="NonBreaking">
+             <Issue Certainty="90" Level="Warning" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="SqlCheck.cs" Line="36">'SqlCheck.SqlCheck()' 将类型为 'int' 的字段 'SqlCheck._deletecount' 初始化为 0。由于此初始化过程将由运行时自动完成，因此请移除它。</Issue>
+             <Issue Certainty="90" Level="Warning" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="SqlCheck.cs" Line="37">'SqlCheck.SqlCheck()' 将类型为 'int' 的字段 'SqlCheck._insertcount' 初始化为 0。由于此初始化过程将由运行时自动完成，因此请移除它。</Issue>
+             <Issue Certainty="90" Level="Warning" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="SqlCheck.cs" Line="38">'SqlCheck.SqlCheck()' 将类型为 'int' 的字段 'SqlCheck._selectcount' 初始化为 0。由于此初始化过程将由运行时自动完成，因此请移除它。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetCount(System.String,System.String)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Entry" File="SqlCheck.cs" Line="60">从未使用 'SqlCheck.GetCount(string, string)' 的“this”参数(Visual Basic 中为“Me”)。根据需要，将成员标记为 static (Visual Basic 中为“Shared”)，或者在方法体或至少一个属性访问器中使用“this”/“Me”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="DAl.Map">
+       <Types>
+        <Type Name="ExclusiveAttribute" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="AvoidUnsealedAttributes" Category="Microsoft.Performance" CheckId="CA1813" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+           <Issue Certainty="75" Level="Warning">如有可能，请密封 'ExclusiveAttribute'。</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="FieldMapAttribute" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="AvoidUnsealedAttributes" Category="Microsoft.Performance" CheckId="CA1813" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+           <Issue Certainty="75" Level="Warning">如有可能，请密封 'FieldMapAttribute'。</Issue>
+          </Message>
+          <Message TypeName="DefineAccessorsForAttributeArguments" Category="Microsoft.Design" CheckId="CA1019" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+           <Issue Name="RemoveSetter" Certainty="95" Level="Error">由于属性 setter 对应于位置参数 'canrepeat'，因此请将它从 'FieldMapAttribute.CanRepeat' 中移除或者降低它的可访问性。</Issue>
+           <Issue Name="RemoveSetter" Certainty="95" Level="Error">由于属性 setter 对应于位置参数 'columnName'，因此请将它从 'FieldMapAttribute.ColumnName' 中移除或者降低它的可访问性。</Issue>
+           <Issue Name="RemoveSetter" Certainty="95" Level="Error">由于属性 setter 对应于位置参数 'dbtype'，因此请将它从 'FieldMapAttribute.DbType' 中移除或者降低它的可访问性。</Issue>
+           <Issue Name="RemoveSetter" Certainty="95" Level="Error">由于属性 setter 对应于位置参数 'defaultvalue'，因此请将它从 'FieldMapAttribute.DefaultValue' 中移除或者降低它的可访问性。</Issue>
+           <Issue Name="RemoveSetter" Certainty="95" Level="Error">由于属性 setter 对应于位置参数 'isidentity'，因此请将它从 'FieldMapAttribute.IsIdentity' 中移除或者降低它的可访问性。</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#.ctor(System.String,System.Data.DbType)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotInitializeUnnecessarily" Category="Microsoft.Performance" CheckId="CA1805" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="NonBreaking">
+             <Issue Certainty="90" Level="Warning" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Map" File="FieldMapAtrribute.cs" Line="33">'FieldMapAttribute.FieldMapAttribute(string, DbType)' 将类型为 'bool' 的字段 'FieldMapAttribute._IsIdentity' 初始化为 false。由于此初始化过程将由运行时自动完成，因此请移除它。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#.ctor(System.String,System.Data.DbType,System.Object)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotInitializeUnnecessarily" Category="Microsoft.Performance" CheckId="CA1805" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="NonBreaking">
+             <Issue Certainty="90" Level="Warning" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Map" File="FieldMapAtrribute.cs" Line="49">'FieldMapAttribute.FieldMapAttribute(string, DbType, object)' 将类型为 'bool' 的字段 'FieldMapAttribute._IsIdentity' 初始化为 false。由于此初始化过程将由运行时自动完成，因此请移除它。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#DbType" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Db" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Map" File="FieldMapAtrribute.cs" Line="73">更正成员名称 'FieldMapAttribute.DbType' 中“Db”的大小写，将其改为“DB”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ItemObjectAttribute" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="AvoidUnsealedAttributes" Category="Microsoft.Performance" CheckId="CA1813" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+           <Issue Certainty="75" Level="Warning">如有可能，请密封 'ItemObjectAttribute'。</Issue>
+          </Message>
+          <Message TypeName="DefineAccessorsForAttributeArguments" Category="Microsoft.Design" CheckId="CA1019" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="NonBreaking">
+           <Issue Certainty="95" Level="Error">为属性(Attribute) 'ItemObjectAttribute' 的位置参数 '_item' 添加一个公共的只读属性(Property)访问器。</Issue>
+           <Issue Certainty="95" Level="Error">为属性(Attribute) 'ItemObjectAttribute' 的位置参数 '_sql' 添加一个公共的只读属性(Property)访问器。</Issue>
+           <Issue Certainty="95" Level="Error">为属性(Attribute) 'ItemObjectAttribute' 的位置参数 '_type' 添加一个公共的只读属性(Property)访问器。</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#.ctor(System.String,System.String,System.Type)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Map" File="ItemObjectAttribute.cs" Line="14">在成员 'ItemObjectAttribute.ItemObjectAttribute(string, string, Type)' 中，从参数名称 '_item' 中移除下划线。</Issue>
+             <Issue Name="MemberParameter" Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Map" File="ItemObjectAttribute.cs" Line="14">在成员 'ItemObjectAttribute.ItemObjectAttribute(string, string, Type)' 中，从参数名称 '_sql' 中移除下划线。</Issue>
+             <Issue Name="MemberParameter" Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Map" File="ItemObjectAttribute.cs" Line="14">在成员 'ItemObjectAttribute.ItemObjectAttribute(string, string, Type)' 中，从参数名称 '_type' 中移除下划线。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#.ctor(System.String,System.Type)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Map" File="ItemObjectAttribute.cs" Line="20">在成员 'ItemObjectAttribute.ItemObjectAttribute(string, Type)' 中，从参数名称 '_sql' 中移除下划线。</Issue>
+             <Issue Name="MemberParameter" Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Map" File="ItemObjectAttribute.cs" Line="20">在成员 'ItemObjectAttribute.ItemObjectAttribute(string, Type)' 中，从参数名称 '_type' 中移除下划线。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="SubObjectAttribute" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="AvoidUnsealedAttributes" Category="Microsoft.Performance" CheckId="CA1813" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+           <Issue Certainty="75" Level="Warning">如有可能，请密封 'SubObjectAttribute'。</Issue>
+          </Message>
+          <Message TypeName="DefineAccessorsForAttributeArguments" Category="Microsoft.Design" CheckId="CA1019" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+           <Issue Certainty="95" Level="Error">为属性(Attribute) 'SubObjectAttribute' 的位置参数 'sublistType' 添加一个公共的只读属性(Property)访问器。</Issue>
+           <Issue Name="RemoveSetter" Certainty="95" Level="Error">由于属性 setter 对应于位置参数 'foreignkey'，因此请将它从 'SubObjectAttribute.ForeignKey' 中移除或者降低它的可访问性。</Issue>
+           <Issue Name="RemoveSetter" Certainty="95" Level="Error">由于属性 setter 对应于位置参数 'primarykey'，因此请将它从 'SubObjectAttribute.PrimaryKey' 中移除或者降低它的可访问性。</Issue>
+           <Issue Name="RemoveSetter" Certainty="95" Level="Error">由于属性 setter 对应于位置参数 'subObjectType'，因此请将它从 'SubObjectAttribute.SubObjectType' 中移除或者降低它的可访问性。</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="TableMap" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Columns" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Warning" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Map" File="TableMap.cs" Line="36">通过移除属性 setter 将 'TableMap.Columns' 更改为只读。</Issue>
+            </Message>
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Map" File="TableMap.cs" Line="36">更改 'TableMap.Columns' 中的 'Fields' 以使用 Collection&lt;T&gt;、ReadOnlyCollection&lt;T&gt; 或 KeyedCollection&lt;K,V&gt;</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetPk()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Pk" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Map" File="TableMap.cs" Line="52">更正成员名称 'TableMap.GetPk()' 中“Pk”的大小写，将其改为“PK”。</Issue>
+            </Message>
+            <Message TypeName="TestForEmptyStringsUsingStringLength" Category="Microsoft.Performance" CheckId="CA1820" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="NonBreaking">
+             <Issue Name="IsNullOrEmpty" Certainty="95" Level="Warning" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Map" File="TableMap.cs" Line="56">使用“String.IsNullOrEmpty”调用来替换 'TableMap.GetPk()' 中的 'string.operator !=(string, string)' 调用。</Issue>
+            </Message>
+            <Message TypeName="UsePropertiesWhereAppropriate" Category="Microsoft.Design" CheckId="CA1024" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Warning" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Map" File="TableMap.cs" Line="52">如果可行，请将 'TableMap.GetPk()' 改为属性。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#pkfield" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUnusedPrivateFields" Category="Microsoft.Performance" CheckId="CA1823" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning">似乎从未使用过字段 'TableMap.pkfield' 或只对它进行过赋值。请使用此字段或将它移除。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#PrimaryKeyName" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="PropertiesShouldNotReturnArrays" Category="Microsoft.Performance" CheckId="CA1819" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Certainty="50" Level="Warning" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Map" File="TableMap.cs" Line="27">将 'TableMap.PrimaryKeyName' 更改为返回集合或将其转换为方法。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#UnMapingColumns" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Warning" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Map" File="TableMap.cs" Line="44">通过移除属性 setter 将 'TableMap.UnMapingColumns' 更改为只读。</Issue>
+            </Message>
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Map" File="TableMap.cs" Line="44">更改 'TableMap.UnMapingColumns' 中的 'Fields' 以使用 Collection&lt;T&gt;、ReadOnlyCollection&lt;T&gt; 或 KeyedCollection&lt;K,V&gt;</Issue>
+            </Message>
+            <Message Id="Un" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Map" File="TableMap.cs" Line="44">更正成员名称 'TableMap.UnMapingColumns' 中“Un”的大小写，将其改为“UN”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="TableMapAttribute" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="AvoidUnsealedAttributes" Category="Microsoft.Performance" CheckId="CA1813" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+           <Issue Certainty="75" Level="Warning">如有可能，请密封 'TableMapAttribute'。</Issue>
+          </Message>
+          <Message TypeName="DefineAccessorsForAttributeArguments" Category="Microsoft.Design" CheckId="CA1019" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+           <Issue Certainty="95" Level="Error">为属性(Attribute) 'TableMapAttribute' 的位置参数 'primarkey' 添加一个公共的只读属性(Property)访问器。</Issue>
+           <Issue Name="RemoveSetter" Certainty="95" Level="Error">由于属性 setter 对应于位置参数 'tablename'，因此请将它从 'TableMapAttribute.TableName' 中移除或者降低它的可访问性。</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#PrimaryKey" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="PropertiesShouldNotReturnArrays" Category="Microsoft.Performance" CheckId="CA1819" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Certainty="50" Level="Warning" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Map" File="TableMapAttribute.cs" Line="39">将 'TableMapAttribute.PrimaryKey' 更改为返回集合或将其转换为方法。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="DAl.Sql">
+       <Types>
+        <Type Name="Db" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="Db" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="85" Level="Error">更正类型名称 'Db' 中“Db”的大小写，将其改为“DB”。</Issue>
+          </Message>
+          <Message TypeName="StaticHolderTypesShouldNotHaveConstructors" Category="Microsoft.Design" CheckId="CA1053" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+           <Issue Certainty="90" Level="Error">从 'Db' 中移除公共构造函数。</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="DbSession" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="Db" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="85" Level="Error">更正类型名称 'DbSession' 中“Db”的大小写，将其改为“DB”。</Issue>
+          </Message>
+          <Message TypeName="ImplementIDisposableCorrectly" Category="Microsoft.Design" CheckId="CA1063" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+           <Issue Name="ProvideDisposeBool" Certainty="95" Level="Error">对 'DbSession' 提供 Dispose(bool) 的可重写实现或将该类型标记为密封。对 Dispose(false) 的调用应仅清理本机资源。对 Dispose(true) 的调用应既清理托管资源又清理本机资源。</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#.ctor(System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotInitializeUnnecessarily" Category="Microsoft.Performance" CheckId="CA1805" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="NonBreaking">
+             <Issue Certainty="90" Level="Warning" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="DbSession.cs" Line="22">'DbSession.DbSession(string, string)' 将类型为 'DbTransaction' 的字段 'DbSession._trans' 初始化为 null。由于此初始化过程将由运行时自动完成，因此请移除它。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ConvertType`1(System.Object)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="GenericMethodsShouldProvideTypeParameter" Category="Microsoft.Design" CheckId="CA1004" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Warning" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="DbSession.cs" Line="318">考虑使用 'DbSession.ConvertType&lt;T&gt;(object)' 在任何对它的调用中都不需要显式类型参数 'T' 的设计。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ConvertType`1(System.Object,!!0)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalError" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="DbSession.cs" Line="312">修改 'DbSession.ConvertType&lt;T&gt;(object, T)' 以便捕捉比 'Exception' 更具体的异常，或者再次引发该异常。</Issue>
+            </Message>
+            <Message Id="System.Convert.ChangeType(System.Object,System.Type)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="DbSession.cs" Line="305">由于 'Convert.ChangeType(object, Type)' 的行为可能因当前用户的区域设置不同而不同，请将 'DbSession.ConvertType&lt;T&gt;(object, T)' 中的此调用替换为对 'Convert.ChangeType(object, Type, IFormatProvider)' 的调用。如果要向用户显示 'Convert.ChangeType(object, Type, IFormatProvider)' 的结果，请将“CultureInfo.CurrentCulture”指定为“IFormatProvider”参数；另外，如果软件将存储和访问此结果(例如，要将它保留到磁盘或数据库中)，则指定“CultureInfo.InvariantCulture”。</Issue>
+             <Issue Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="DbSession.cs" Line="309">由于 'Convert.ChangeType(object, Type)' 的行为可能因当前用户的区域设置不同而不同，请将 'DbSession.ConvertType&lt;T&gt;(object, T)' 中的此调用替换为对 'Convert.ChangeType(object, Type, IFormatProvider)' 的调用。如果要向用户显示 'Convert.ChangeType(object, Type, IFormatProvider)' 的结果，请将“CultureInfo.CurrentCulture”指定为“IFormatProvider”参数；另外，如果软件将存储和访问此结果(例如，要将它保留到磁盘或数据库中)，则指定“CultureInfo.InvariantCulture”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#DataQuery(System.String,System.Object[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="SetLocaleForDataTypes" Category="Microsoft.Globalization" CheckId="CA1306" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="NonBreaking">
+             <Issue Certainty="90" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="DbSession.cs" Line="184">只要 'DbSession.DataQuery(string, params object[])' 创建了 DataSet 类型的实例，就必须设置这一 Locale 属性。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Delete(System.String,DAl.Sql.Fields)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="DbSession.cs" Line="430">更改 'DbSession.Delete(string, Fields)' 中的 'Fields' 以使用 Collection&lt;T&gt;、ReadOnlyCollection&lt;T&gt; 或 KeyedCollection&lt;K,V&gt;</Issue>
+            </Message>
+            <Message Id="Delete" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="DbSession.cs" Line="430">在成员 'DbSession.Delete(string, Fields)' 中，更正参数名称 'DeleteCondtion' 中“Delete”的大小写，将其改为“delete”。</Issue>
+            </Message>
+            <Message Id="name" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="DbSession.cs" Line="430">在成员 'DbSession.Delete(string, Fields)' 中，更正参数名称 'table_name' 中“name”的大小写，将其改为“Name”。</Issue>
+            </Message>
+            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="DbSession.cs" Line="430">在成员 'DbSession.Delete(string, Fields)' 中，从参数名称 'table_name' 中移除下划线。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Dispose()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CallGCSuppressFinalizeCorrectly" Category="Microsoft.Usage" CheckId="CA1816" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="NonBreaking">
+             <Issue Name="NotCalled" Certainty="75" Level="CriticalWarning" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="DbSession.cs" Line="73">更改 'DbSession.Dispose()' 以调用 'GC.SuppressFinalize(object)'。这可以防止当对象已释放并已超出范围时，对该对象进行不必要的终止。</Issue>
+            </Message>
+            <Message TypeName="ImplementIDisposableCorrectly" Category="Microsoft.Design" CheckId="CA1063" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="DisposeImplementation" Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="DbSession.cs" Line="73">修改 'DbSession.Dispose()'，使它先调用 Dispose(true)，然后对当前对象实例(在 Visual Basic 中为“this”或“Me”)调用 GC.SuppressFinalize，最后返回。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetCount(System.String,DAl.Sql.Fields)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="DbSession.cs" Line="344">更改 'DbSession.GetCount(string, Fields)' 中的 'Fields' 以使用 Collection&lt;T&gt;、ReadOnlyCollection&lt;T&gt; 或 KeyedCollection&lt;K,V&gt;</Issue>
+            </Message>
+            <Message Id="name" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="DbSession.cs" Line="344">在成员 'DbSession.GetCount(string, Fields)' 中，更正参数名称 'table_name' 中“name”的大小写，将其改为“Name”。</Issue>
+            </Message>
+            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="DbSession.cs" Line="344">在成员 'DbSession.GetCount(string, Fields)' 中，从参数名称 'table_name' 中移除下划线。</Issue>
+            </Message>
+            <Message Id="System.String.Format(System.String,System.Object,System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="DbSession.cs" Line="351">由于 'string.Format(string, object, object)' 的行为可能因当前用户的区域设置不同而不同，请将 'DbSession.GetCount(string, Fields)' 中的此调用替换为对 'string.Format(IFormatProvider, string, params object[])' 的调用。如果要向用户显示 'string.Format(IFormatProvider, string, params object[])' 的结果，请将“CultureInfo.CurrentCulture”指定为“IFormatProvider”参数；另外，如果软件将存储和访问此结果(例如，要将它保留到磁盘或数据库中)，则指定“CultureInfo.InvariantCulture”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetCount(System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="name" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="DbSession.cs" Line="354">在成员 'DbSession.GetCount(string, string)' 中，更正参数名称 'table_name' 中“name”的大小写，将其改为“Name”。</Issue>
+            </Message>
+            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="DbSession.cs" Line="354">在成员 'DbSession.GetCount(string, string)' 中，从参数名称 'table_name' 中移除下划线。</Issue>
+            </Message>
+            <Message Id="System.String.Format(System.String,System.Object,System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="DbSession.cs" Line="361">由于 'string.Format(string, object, object)' 的行为可能因当前用户的区域设置不同而不同，请将 'DbSession.GetCount(string, string)' 中的此调用替换为对 'string.Format(IFormatProvider, string, params object[])' 的调用。如果要向用户显示 'string.Format(IFormatProvider, string, params object[])' 的结果，请将“CultureInfo.CurrentCulture”指定为“IFormatProvider”参数；另外，如果软件将存储和访问此结果(例如，要将它保留到磁盘或数据库中)，则指定“CultureInfo.InvariantCulture”。</Issue>
+            </Message>
+            <Message TypeName="TestForEmptyStringsUsingStringLength" Category="Microsoft.Performance" CheckId="CA1820" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="NonBreaking">
+             <Issue Name="IsNullOrEmpty" Certainty="95" Level="Warning" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="DbSession.cs" Line="357">使用“String.IsNullOrEmpty”调用来替换 'DbSession.GetCount(string, string)' 中的 'string.operator !=(string, string)' 调用。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetDbType(System.Type)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="DbSession.cs" Line="123">从未使用 'DbSession.GetDbType(Type)' 的“this”参数(Visual Basic 中为“Me”)。根据需要，将成员标记为 static (Visual Basic 中为“Shared”)，或者在方法体或至少一个属性访问器中使用“this”/“Me”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetScalar(System.String,System.Object[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotRaiseReservedExceptionTypes" Category="Microsoft.Usage" CheckId="CA2201" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="TooGeneric" Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="DbSession.cs" Line="282">'DbSession.GetScalar(string, params object[])' 创建类型为 'Exception' 的异常，该异常类型不够具体，不应由用户代码引发。如有可能引发此异常实例，请使用其他异常类型。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetScalar`1(System.String,System.Object[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="GenericMethodsShouldProvideTypeParameter" Category="Microsoft.Design" CheckId="CA1004" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Warning" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="DbSession.cs" Line="264">考虑使用 'DbSession.GetScalar&lt;T&gt;(string, params object[])' 在任何对它的调用中都不需要显式类型参数 'T' 的设计。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Insert(System.String,DAl.Sql.Fields)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="DbSession.cs" Line="424">更改 'DbSession.Insert(string, Fields)' 中的 'Fields' 以使用 Collection&lt;T&gt;、ReadOnlyCollection&lt;T&gt; 或 KeyedCollection&lt;K,V&gt;</Issue>
+            </Message>
+            <Message Id="Insert" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="DbSession.cs" Line="424">在成员 'DbSession.Insert(string, Fields)' 中，更正参数名称 'InsertFields' 中“Insert”的大小写，将其改为“insert”。</Issue>
+            </Message>
+            <Message Id="name" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="DbSession.cs" Line="424">在成员 'DbSession.Insert(string, Fields)' 中，更正参数名称 'table_name' 中“name”的大小写，将其改为“Name”。</Issue>
+            </Message>
+            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="DbSession.cs" Line="424">在成员 'DbSession.Insert(string, Fields)' 中，从参数名称 'table_name' 中移除下划线。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Query(System.String,System.Object[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="SetLocaleForDataTypes" Category="Microsoft.Globalization" CheckId="CA1306" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="NonBreaking">
+             <Issue Certainty="90" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="DbSession.cs" Line="158">只要 'DbSession.Query(string, params object[])' 创建了 DataTable 类型的实例，就必须设置这一 Locale 属性。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#QueryList`1(System.String,System.Object[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="GenericMethodsShouldProvideTypeParameter" Category="Microsoft.Design" CheckId="CA1004" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Warning" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="DbSession.cs" Line="334">考虑使用 'DbSession.QueryList&lt;T&gt;(string, params object[])' 在任何对它的调用中都不需要显式类型参数 'T' 的设计。</Issue>
+            </Message>
+            <Message Id="args" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="DbSession.cs" Line="334">从未用过 'DbSession.QueryList&lt;T&gt;(string, params object[])' 的参数 'args'。请移除该参数或在方法体中使用它。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#QueryObject`1(System.String,System.Object[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="GenericMethodsShouldProvideTypeParameter" Category="Microsoft.Design" CheckId="CA1004" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Warning" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="DbSession.cs" Line="324">考虑使用 'DbSession.QueryObject&lt;T&gt;(string, params object[])' 在任何对它的调用中都不需要显式类型参数 'T' 的设计。</Issue>
+            </Message>
+            <Message Id="args" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="DbSession.cs" Line="324">从未用过 'DbSession.QueryObject&lt;T&gt;(string, params object[])' 的参数 'args'。请移除该参数或在方法体中使用它。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#QueryReader(System.String,System.Data.CommandBehavior,System.Object[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotRaiseReservedExceptionTypes" Category="Microsoft.Usage" CheckId="CA2201" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="TooGeneric" Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="DbSession.cs" Line="241">'DbSession.QueryReader(string, CommandBehavior, params object[])' 创建类型为 'Exception' 的异常，该异常类型不够具体，不应由用户代码引发。如有可能引发此异常实例，请使用其他异常类型。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Select(System.String,DAl.Sql.Fields,DAl.Sql.Fields,DAl.Sql.Fields)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="DbSession.cs" Line="364">更改 'DbSession.Select(string, Fields, Fields, Fields)' 中的 'Fields' 以使用 Collection&lt;T&gt;、ReadOnlyCollection&lt;T&gt; 或 KeyedCollection&lt;K,V&gt;</Issue>
+             <Issue Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="DbSession.cs" Line="364">更改 'DbSession.Select(string, Fields, Fields, Fields)' 中的 'Fields' 以使用 Collection&lt;T&gt;、ReadOnlyCollection&lt;T&gt; 或 KeyedCollection&lt;K,V&gt;</Issue>
+             <Issue Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="DbSession.cs" Line="364">更改 'DbSession.Select(string, Fields, Fields, Fields)' 中的 'Fields' 以使用 Collection&lt;T&gt;、ReadOnlyCollection&lt;T&gt; 或 KeyedCollection&lt;K,V&gt;</Issue>
+            </Message>
+            <Message Id="name" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="DbSession.cs" Line="364">在成员 'DbSession.Select(string, Fields, Fields, Fields)' 中，更正参数名称 'table_name' 中“name”的大小写，将其改为“Name”。</Issue>
+            </Message>
+            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="DbSession.cs" Line="364">在成员 'DbSession.Select(string, Fields, Fields, Fields)' 中，从参数名称 'table_name' 中移除下划线。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Select(System.String,DAl.Sql.Fields,DAl.Sql.Fields,DAl.Sql.Fields,System.Int32,System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="DbSession.cs" Line="368">更改 'DbSession.Select(string, Fields, Fields, Fields, int, int)' 中的 'Fields' 以使用 Collection&lt;T&gt;、ReadOnlyCollection&lt;T&gt; 或 KeyedCollection&lt;K,V&gt;</Issue>
+             <Issue Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="DbSession.cs" Line="368">更改 'DbSession.Select(string, Fields, Fields, Fields, int, int)' 中的 'Fields' 以使用 Collection&lt;T&gt;、ReadOnlyCollection&lt;T&gt; 或 KeyedCollection&lt;K,V&gt;</Issue>
+             <Issue Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="DbSession.cs" Line="368">更改 'DbSession.Select(string, Fields, Fields, Fields, int, int)' 中的 'Fields' 以使用 Collection&lt;T&gt;、ReadOnlyCollection&lt;T&gt; 或 KeyedCollection&lt;K,V&gt;</Issue>
+            </Message>
+            <Message TypeName="DoNotRaiseReservedExceptionTypes" Category="Microsoft.Usage" CheckId="CA2201" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="TooGeneric" Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="DbSession.cs" Line="382">'DbSession.Select(string, Fields, Fields, Fields, int, int)' 创建类型为 'Exception' 的异常，该异常类型不够具体，不应由用户代码引发。如有可能引发此异常实例，请使用其他异常类型。</Issue>
+            </Message>
+            <Message Id="name" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="DbSession.cs" Line="368">在成员 'DbSession.Select(string, Fields, Fields, Fields, int, int)' 中，更正参数名称 'table_name' 中“name”的大小写，将其改为“Name”。</Issue>
+            </Message>
+            <Message Id="rows" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="DbSession.cs" Line="368">在成员 'DbSession.Select(string, Fields, Fields, Fields, int, int)' 中，更正参数名称 'max_rows' 中“rows”的大小写，将其改为“Rows”。</Issue>
+            </Message>
+            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="DbSession.cs" Line="368">在成员 'DbSession.Select(string, Fields, Fields, Fields, int, int)' 中，从参数名称 'max_rows' 中移除下划线。</Issue>
+             <Issue Name="MemberParameter" Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="DbSession.cs" Line="368">在成员 'DbSession.Select(string, Fields, Fields, Fields, int, int)' 中，从参数名称 'table_name' 中移除下划线。</Issue>
+            </Message>
+            <Message Id="startIndex+1" TypeName="OperationsShouldNotOverflow" Category="Microsoft.Usage" CheckId="CA2233" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="CriticalWarning" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="DbSession.cs" Line="402">更正 'DbSession.Select(string, Fields, Fields, Fields, int, int)' 中运算“startIndex+1”的潜在溢出。</Issue>
+            </Message>
+            <Message Id="System.String.Format(System.String,System.Object[])" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="DbSession.cs" Line="402">由于 'string.Format(string, params object[])' 的行为可能因当前用户的区域设置不同而不同，请将 'DbSession.Select(string, Fields, Fields, Fields, int, int)' 中的此调用替换为对 'string.Format(IFormatProvider, string, params object[])' 的调用。如果要向用户显示 'string.Format(IFormatProvider, string, params object[])' 的结果，请将“CultureInfo.CurrentCulture”指定为“IFormatProvider”参数；另外，如果软件将存储和访问此结果(例如，要将它保留到磁盘或数据库中)，则指定“CultureInfo.InvariantCulture”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Update(System.String,DAl.Sql.Fields,DAl.Sql.Fields)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="DbSession.cs" Line="418">更改 'DbSession.Update(string, Fields, Fields)' 中的 'Fields' 以使用 Collection&lt;T&gt;、ReadOnlyCollection&lt;T&gt; 或 KeyedCollection&lt;K,V&gt;</Issue>
+             <Issue Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="DbSession.cs" Line="418">更改 'DbSession.Update(string, Fields, Fields)' 中的 'Fields' 以使用 Collection&lt;T&gt;、ReadOnlyCollection&lt;T&gt; 或 KeyedCollection&lt;K,V&gt;</Issue>
+            </Message>
+            <Message Id="Condition" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="DbSession.cs" Line="418">在成员 'DbSession.Update(string, Fields, Fields)' 中，更正参数名称 'Condition' 中“Condition”的大小写，将其改为“condition”。</Issue>
+            </Message>
+            <Message Id="Update" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="DbSession.cs" Line="418">在成员 'DbSession.Update(string, Fields, Fields)' 中，更正参数名称 'UpdateFields' 中“Update”的大小写，将其改为“update”。</Issue>
+            </Message>
+            <Message Id="name" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="DbSession.cs" Line="418">在成员 'DbSession.Update(string, Fields, Fields)' 中，更正参数名称 'table_name' 中“name”的大小写，将其改为“Name”。</Issue>
+            </Message>
+            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="DbSession.cs" Line="418">在成员 'DbSession.Update(string, Fields, Fields)' 中，从参数名称 'table_name' 中移除下划线。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#UpdateOrInsert(System.String,DAl.Sql.Fields,DAl.Sql.Fields)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="DbSession.cs" Line="438">更改 'DbSession.UpdateOrInsert(string, Fields, Fields)' 中的 'Fields' 以使用 Collection&lt;T&gt;、ReadOnlyCollection&lt;T&gt; 或 KeyedCollection&lt;K,V&gt;</Issue>
+             <Issue Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="DbSession.cs" Line="438">更改 'DbSession.UpdateOrInsert(string, Fields, Fields)' 中的 'Fields' 以使用 Collection&lt;T&gt;、ReadOnlyCollection&lt;T&gt; 或 KeyedCollection&lt;K,V&gt;</Issue>
+            </Message>
+            <Message Id="Key" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="DbSession.cs" Line="438">在成员 'DbSession.UpdateOrInsert(string, Fields, Fields)' 中，更正参数名称 'KeyFields' 中“Key”的大小写，将其改为“key”。</Issue>
+            </Message>
+            <Message Id="name" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="DbSession.cs" Line="438">在成员 'DbSession.UpdateOrInsert(string, Fields, Fields)' 中，更正参数名称 'table_name' 中“name”的大小写，将其改为“Name”。</Issue>
+            </Message>
+            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="DbSession.cs" Line="438">在成员 'DbSession.UpdateOrInsert(string, Fields, Fields)' 中，从参数名称 'table_name' 中移除下划线。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Field" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor(System.String,System.Object)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="fieldname" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterShouldBeCompoundWord" Certainty="80" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="Field.cs" Line="26">在成员 'Field.Field(string, object)' 中，参数名称 'fieldname' 中的分立词条“fieldname”应表示为一个组合词“fieldName”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#.ctor(System.Type,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="fieldname" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterShouldBeCompoundWord" Certainty="80" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="Field.cs" Line="21">在成员 'Field.Field(Type, string)' 中，参数名称 'fieldname' 中的分立词条“fieldname”应表示为一个组合词“fieldName”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#.ctor(System.Type,System.String,System.Object)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="fieldname" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterShouldBeCompoundWord" Certainty="80" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="Field.cs" Line="15">在成员 'Field.Field(Type, string, object)' 中，参数名称 'fieldname' 中的分立词条“fieldname”应表示为一个组合词“fieldName”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetNotNullValue()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="UsePropertiesWhereAppropriate" Category="Microsoft.Design" CheckId="CA1024" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Certainty="50" Level="Warning" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="Field.cs" Line="92">如果可行，请将 'Field.GetNotNullValue()' 改为属性。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#isDBNull" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="is" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="Field.cs" Line="79">更正成员名称 'Field.isDBNull' 中“is”的大小写，将其改为“Is”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Type" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="PropertyNamesShouldNotMatchGetMethods" Category="Microsoft.Naming" CheckId="CA1721" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="NonBreaking">
+             <Issue Name="BaseType" Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="Field.cs" Line="45">由于存在继承方法 'object.GetType()'，属性名 'Field.Type' 会造成混淆。请重命名或移除该属性。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Value" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#set_Value(System.Object)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+             <Messages>
+              <Message TypeName="DoNotRaiseReservedExceptionTypes" Category="Microsoft.Usage" CheckId="CA2201" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+               <Issue Name="TooGeneric" Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="Field.cs" Line="67">'Field.Value.set(object)' 创建类型为 'Exception' 的异常，该异常类型不够具体，不应由用户代码引发。如有可能引发此异常实例，请使用其他异常类型。</Issue>
+              </Message>
+              <Message Id="value" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="DependsOnFix">
+               <Issue Certainty="95" Level="Warning" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="Field.cs" Line="54">从未用过 'Field.Value.set(object)' 的参数 'value'。请移除该参数或在方法体中使用它。</Issue>
+              </Message>
+              <Message Id="System.Convert.ChangeType(System.Object,System.Type)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="DependsOnFix">
+               <Issue Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="Field.cs" Line="63">由于 'Convert.ChangeType(object, Type)' 的行为可能因当前用户的区域设置不同而不同，请将 'Field.Value.set(object)' 中的此调用替换为对 'Convert.ChangeType(object, Type, IFormatProvider)' 的调用。如果要向用户显示 'Convert.ChangeType(object, Type, IFormatProvider)' 的结果，请将“CultureInfo.CurrentCulture”指定为“IFormatProvider”参数；另外，如果软件将存储和访问此结果(例如，要将它保留到磁盘或数据库中)，则指定“CultureInfo.InvariantCulture”。</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Fields" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Add(DAl.Sql.Field)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="Fields.cs" Line="54">更改 'Fields.Add(Field)' 中的 'Fields' 以使用 Collection&lt;T&gt;、ReadOnlyCollection&lt;T&gt; 或 KeyedCollection&lt;K,V&gt;</Issue>
+            </Message>
+            <Message TypeName="DoNotRaiseReservedExceptionTypes" Category="Microsoft.Usage" CheckId="CA2201" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="TooGeneric" Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="Fields.cs" Line="58">'Fields.Add(Field)' 创建类型为 'Exception' 的异常，该异常类型不够具体，不应由用户代码引发。如有可能引发此异常实例，请使用其他异常类型。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#AddField(DAl.Sql.Field)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotRaiseReservedExceptionTypes" Category="Microsoft.Usage" CheckId="CA2201" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="TooGeneric" Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="Fields.cs" Line="66">'Fields.AddField(Field)' 创建类型为 'Exception' 的异常，该异常类型不够具体，不应由用户代码引发。如有可能引发此异常实例，请使用其他异常类型。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#AddField(System.String,System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Fieldname" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterShouldBeCompoundWord" Certainty="80" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="Fields.cs" Line="82">在成员 'Fields.AddField(string, int)' 中，参数名称 'Fieldname' 中的分立词条“Fieldname”应表示为一个组合词“FieldName”。</Issue>
+            </Message>
+            <Message Id="Fieldname" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="Fields.cs" Line="82">在成员 'Fields.AddField(string, int)' 中，更正参数名称 'Fieldname' 中“Fieldname”的大小写，将其改为“fieldname”。</Issue>
+            </Message>
+            <Message Id="Value" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="Fields.cs" Line="82">在成员 'Fields.AddField(string, int)' 中，更正参数名称 'Value' 中“Value”的大小写，将其改为“value”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#AddField(System.String,System.Object,System.Type)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Fieldname" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterShouldBeCompoundWord" Certainty="80" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="Fields.cs" Line="76">在成员 'Fields.AddField(string, object, Type)' 中，参数名称 'Fieldname' 中的分立词条“Fieldname”应表示为一个组合词“FieldName”。</Issue>
+            </Message>
+            <Message Id="Fieldname" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="Fields.cs" Line="76">在成员 'Fields.AddField(string, object, Type)' 中，更正参数名称 'Fieldname' 中“Fieldname”的大小写，将其改为“fieldname”。</Issue>
+            </Message>
+            <Message Id="Value" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="Fields.cs" Line="76">在成员 'Fields.AddField(string, object, Type)' 中，更正参数名称 'Value' 中“Value”的大小写，将其改为“value”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#AddField(System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Fieldname" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterShouldBeCompoundWord" Certainty="80" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="Fields.cs" Line="70">在成员 'Fields.AddField(string, string)' 中，参数名称 'Fieldname' 中的分立词条“Fieldname”应表示为一个组合词“FieldName”。</Issue>
+            </Message>
+            <Message Id="Fieldname" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="Fields.cs" Line="70">在成员 'Fields.AddField(string, string)' 中，更正参数名称 'Fieldname' 中“Fieldname”的大小写，将其改为“fieldname”。</Issue>
+            </Message>
+            <Message Id="Value" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="Fields.cs" Line="70">在成员 'Fields.AddField(string, string)' 中，更正参数名称 'Value' 中“Value”的大小写，将其改为“value”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetField(System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotRaiseReservedExceptionTypes" Category="Microsoft.Usage" CheckId="CA2201" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="TooGeneric" Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="Fields.cs" Line="98">'Fields.GetField(int)' 创建类型为 'Exception' 的异常，该异常类型不够具体，不应由用户代码引发。如有可能引发此异常实例，请使用其他异常类型。</Issue>
+            </Message>
+            <Message Id="Index" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="Fields.cs" Line="96">在成员 'Fields.GetField(int)' 中，更正参数名称 'Index' 中“Index”的大小写，将其改为“index”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetField(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Fieldname" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterShouldBeCompoundWord" Certainty="80" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="Fields.cs" Line="102">在成员 'Fields.GetField(string)' 中，参数名称 'Fieldname' 中的分立词条“Fieldname”应表示为一个组合词“FieldName”。</Issue>
+            </Message>
+            <Message Id="Fieldname" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="Fields.cs" Line="102">在成员 'Fields.GetField(string)' 中，更正参数名称 'Fieldname' 中“Fieldname”的大小写，将其改为“fieldname”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetFieldIndex(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Field" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="Fields.cs" Line="40">在成员 'Fields.GetFieldIndex(string)' 中，更正参数名称 'FieldName' 中“Field”的大小写，将其改为“field”。</Issue>
+            </Message>
+            <Message Id="System.String.ToLower" TypeName="SpecifyCultureInfo" Category="Microsoft.Globalization" CheckId="CA1304" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="Fields.cs" Line="43">由于 'string.ToLower()' 的行为可能因当前用户的区域设置不同而不同，请将 'Fields.GetFieldIndex(string)' 中的此调用替换为对 'string.ToLower(CultureInfo)' 的调用。如果要向用户显示 'string.ToLower(CultureInfo)' 的结果，请将“CultureInfo.CurrentCulture”指定为“CultureInfo”参数；如果软件将存储和访问此结果(例如，要将它保留到磁盘或数据库中)，则指定“CultureInfo.InvariantCulture”。</Issue>
+             <Issue Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="Fields.cs" Line="43">由于 'string.ToLower()' 的行为可能因当前用户的区域设置不同而不同，请将 'Fields.GetFieldIndex(string)' 中的此调用替换为对 'string.ToLower(CultureInfo)' 的调用。如果要向用户显示 'string.ToLower(CultureInfo)' 的结果，请将“CultureInfo.CurrentCulture”指定为“CultureInfo”参数；如果软件将存储和访问此结果(例如，要将它保留到磁盘或数据库中)，则指定“CultureInfo.InvariantCulture”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#HasField(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Field" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="Fields.cs" Line="49">在成员 'Fields.HasField(string)' 中，更正参数名称 'FieldName' 中“Field”的大小写，将其改为“field”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ReadDataRow(System.Data.DataRow)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="Fields.cs" Line="166">更改 'Fields.ReadDataRow(DataRow)' 中的 'Fields' 以使用 Collection&lt;T&gt;、ReadOnlyCollection&lt;T&gt; 或 KeyedCollection&lt;K,V&gt;</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Remove(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="Fields.cs" Line="90">更改 'Fields.Remove(string)' 中的 'Fields' 以使用 Collection&lt;T&gt;、ReadOnlyCollection&lt;T&gt; 或 KeyedCollection&lt;K,V&gt;</Issue>
+            </Message>
+            <Message Id="Field" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="Fields.cs" Line="90">在成员 'Fields.Remove(string)' 中，更正参数名称 'FieldName' 中“Field”的大小写，将其改为“field”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Log" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="StaticHolderTypesShouldNotHaveConstructors" Category="Microsoft.Design" CheckId="CA1053" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="Breaking">
+           <Issue Certainty="90" Level="Error">从 'Log' 中移除公共构造函数。</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#.cctor()" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="InitializeReferenceTypeStaticFieldsInline" Category="Microsoft.Performance" CheckId="CA1810" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="NonBreaking">
+             <Issue Certainty="90" Level="CriticalWarning" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="Log.cs" Line="9">声明 'Log' 中的静态字段时应初始化所有这些字段，并移除显式静态构造函数。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Debug(System.String,System.Object[])" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="log4net.ILog.DebugFormat(System.String,System.Object[])" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="Log.cs" Line="43">由于 'ILog.DebugFormat(string, params object[])' 的行为可能因当前用户的区域设置不同而不同，请将 'Log.Debug(string, params object[])' 中的此调用替换为对 'ILog.DebugFormat(IFormatProvider, string, params object[])' 的调用。如果要向用户显示 'ILog.DebugFormat(IFormatProvider, string, params object[])' 的结果，请将“CultureInfo.CurrentCulture”指定为“IFormatProvider”参数；另外，如果软件将存储和访问此结果(例如，要将它保留到磁盘或数据库中)，则指定“CultureInfo.InvariantCulture”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Info(System.String,System.Object[])" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="log4net.ILog.InfoFormat(System.String,System.Object[])" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2010-07-19 04:06:32Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Error" Path="E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\Sql" File="Log.cs" Line="22">由于 'ILog.InfoFormat(string, params object[])' 的行为可能因当前用户的区域设置不同而不同，请将 'Log.Info(string, params object[])' 中的此调用替换为对 'ILog.InfoFormat(IFormatProvider, string, params object[])' 的调用。如果要向用户显示 'ILog.InfoFormat(IFormatProvider, string, params object[])' 的结果，请将“CultureInfo.CurrentCulture”指定为“IFormatProvider”参数；另外，如果软件将存储和访问此结果(例如，要将它保留到磁盘或数据库中)，则指定“CultureInfo.InvariantCulture”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210">
+   <Name>程序集应具有有效的强名称</Name>
+   <Description>程序集没有强名称，强名称无效，或者强名称只有经过计算机配置后才有效。不应部署处于这种状态的程序集。出现这种情况最常见原因有: 1) 对程序集进行签名后，修改了该程序集的内容；2) 签名过程失败；3) 延迟了程序集签名；4) 存在一个允许检查通过(原本不应通过)的注册表项。</Description>
+   <Resolution Name="NoStrongName">用强名称密钥对 {0} 进行签名。</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/ms182127(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalError</MessageLevel>
+   <File Name="DesignRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020">
+   <Name>避免使用类型极少的命名空间</Name>
+   <Description>命名空间一般应具有五个以上的类型。</Description>
+   <Resolution Name="Default">考虑将“{0}”中定义的类型与另一个命名空间合并。</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/ms182130(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="50">Warning</MessageLevel>
+   <File Name="DesignRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="AvoidUnsealedAttributes" Category="Microsoft.Performance" CheckId="CA1813">
+   <Name>避免使用未密封的属性</Name>
+   <Description>密封属性类型可以提高性能。在对自定义属性进行反射期间，密封属性类型可以提高性能。</Description>
+   <Resolution Name="Default">如有可能，请密封 {0}。</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/ms182267(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="PerformanceRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="AvoidUnusedPrivateFields" Category="Microsoft.Performance" CheckId="CA1823">
+   <Name>避免未使用的私有字段</Name>
+   <Description>检测到程序集内有似乎未访问过的私有字段。如果错误地引发了此冲突，请向 Visual Studio 代码分析团队发送问题报告。</Description>
+   <Resolution Name="Default">似乎从未使用过字段 {0} 或只对它进行过赋值。请使用此字段或将它移除。</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/ms245042(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="PerformanceRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="CallGCSuppressFinalizeCorrectly" Category="Microsoft.Usage" CheckId="CA1816">
+   <Name>正确调用 GC.SuppressFinalize</Name>
+   <Description>调用 Dispose 后，应调用 GC.SuppressFinalize 以取消实例的终止过程。实现 IDisposable 的对象应通过 IDisposable.Dispose 方法调用 SuppressFinalize，以防止垃圾回收器对不需要终止的对象调用 Object.Finalize。</Description>
+   <Resolution Name="NotCalled">更改 {0} 以调用 {1}。这可以防止当对象已释放并已超出范围时，对该对象进行不必要的终止。</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/ms182269(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">CriticalWarning</MessageLevel>
+   <File Name="UsageRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227">
+   <Name>集合属性应为只读</Name>
+   <Description>返回集合的属性应为只读，以确保用户无法完全替换后备存储。用户通过对集合调用相关方法仍然可以修改集合的内容。请注意，XmlSerializer 类对反序列化只读集合具有专门的支持。有关详细信息，请参见 XmlSerializer 概述。</Description>
+   <Resolution Name="Default">通过移除属性 setter 将 {0} 更改为只读。</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/ms182327(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="UsageRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702">
+   <Name>组合词应采用正确的大小写</Name>
+   <Description>避免从字典中现有的分立词条创建组合词。例如，不要创建诸如“StopWatch”或“PopUp”之类的组合词。这些词条在字典中已收录，其正确的大小写应为“Stopwatch”和“Popup”。</Description>
+   <Resolution Name="MemberParameterShouldBeCompoundWord">在成员 {0} 中，参数名称 {2} 中的分立词条“{1}”应表示为一个组合词“{3}”。</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/bb264474(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="80">Error</MessageLevel>
+   <File Name="NamingRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="DefineAccessorsForAttributeArguments" Category="Microsoft.Design" CheckId="CA1019">
+   <Name>定义属性参数的访问器</Name>
+   <Description>为命名参数和位置参数提供访问器。属性(Attribute)的每个位置参数都应声明一个名称相同但大小写不同的只读属性(Property)。每个命名参数都应提供一个名称相同但大小写不同的读/写属性(Property)。</Description>
+   <Resolution Name="Default">为属性(Attribute) {1} 的位置参数 {0} 添加一个公共的只读属性(Property)访问器。</Resolution>
+   <Resolution Name="RemoveSetter">由于属性 setter 对应于位置参数 {1}，因此请将它从 {0} 中移除或者降低它的可访问性。</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/ms182136(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="DesignRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031">
+   <Name>不要捕捉一般异常类型</Name>
+   <Description>不应捕捉 Exception 或 SystemException。捕捉一般异常类型会使库用户看不到运行时问题，并会使调试复杂化。您应该仅捕捉自己可以进行适当处理的异常。</Description>
+   <Resolution Name="Default">修改 {0} 以便捕捉比 {1} 更具体的异常，或者再次引发该异常。</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/ms182137(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalError</MessageLevel>
+   <File Name="DesignRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051">
+   <Name>不要声明可见实例字段</Name>
+   <Description>在其声明类型的外部可见的实例字段会限制您更改这些数据项的实现详细信息的能力。请改用属性。属性不会降低可用性或性能，并且能够提供灵活性，因为它们隐藏了基础数据的实现详细信息。</Description>
+   <Resolution Name="Default">由于字段 {0} 在其声明类型的外部可见，因此，请将它的可访问性改为私有，并添加一个与该字段当前的可访问性相同的属性以提供对该属性的访问。</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/ms182141(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="90">Error</MessageLevel>
+   <File Name="DesignRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002">
+   <Name>不要公开泛型列表</Name>
+   <Description>不要在对象模型中公开 List&lt;T&gt;。应使用 Collection&lt;T&gt;、ReadOnlyCollection&lt;T&gt; 或 KeyedCollection&lt;K,V&gt;。List&lt;T&gt; 应通过实现来使用，而不是在对象模型 API 中使用。List&lt;T&gt; 针对性能进行了优化，但代价是需要长期进行版本管理。例如，如果将 List&lt;T&gt; 返回到客户端代码，您将无法再在客户端代码修改集合时收到通知。</Description>
+   <Resolution Name="Default">更改 {1} 中的 {0} 以使用 Collection&lt;T&gt;、ReadOnlyCollection&lt;T&gt; 或 KeyedCollection&lt;K,V&gt;</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/ms182142(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="DesignRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="DoNotInitializeUnnecessarily" Category="Microsoft.Performance" CheckId="CA1805">
+   <Name>避免进行不必要的初始化</Name>
+   <Description>不要执行运行时已完成的初始化过程。</Description>
+   <Resolution Name="Default">{0} 将类型为 {2} 的字段 {1} 初始化为 {3}。由于此初始化过程将由运行时自动完成，因此请移除它。</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/ms182274(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="90">Warning</MessageLevel>
+   <File Name="PerformanceRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="DoNotNestGenericTypesInMemberSignatures" Category="Microsoft.Design" CheckId="CA1006">
+   <Name>不要将泛型类型嵌套在成员签名中</Name>
+   <Description>避免如下的 API: 要求用户以另一个泛型类型为类型实参来实例化一个泛型类型。这样的语法过于复杂。</Description>
+   <Resolution Name="Default">考虑 {0} 不嵌套泛型类型 {1} 的设计。</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/ms182144(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalError</MessageLevel>
+   <File Name="DesignRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="DoNotRaiseReservedExceptionTypes" Category="Microsoft.Usage" CheckId="CA2201">
+   <Name>不要引发保留的异常类型</Name>
+   <Description>用户代码不应创建和引发某些类型的异常，即属于运行时保留的异常类型或太通用的异常类型。太通用的异常类型包括 Exception、SystemException 和 ApplicationException。运行时保留的异常类型包括 ThreadAbortException、OutOfMemoryException、ExecutionEngineException 和 IndexOutOfRangeException。</Description>
+   <Resolution Name="TooGeneric">{0} 创建类型为 {1} 的异常，该异常类型不够具体，不应由用户代码引发。如有可能引发此异常实例，请使用其他异常类型。</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/ms182338(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="UsageRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="GenericMethodsShouldProvideTypeParameter" Category="Microsoft.Design" CheckId="CA1004">
+   <Name>泛型方法应提供类型参数</Name>
+   <Description>以下方法令人难以理解，在这些方法中，类型参数无法从参数中推理出来，因此必须在方法调用中定义。如果方法带有类型化为泛型方法类型参数的形参，则这些方法支持推理；如果方法没有类型化为泛型方法类型参数的形参，则这些方法不支持推理。</Description>
+   <Resolution Name="Default">考虑使用 {0} 在任何对它的调用中都不需要显式类型参数 {1} 的设计。</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/ms182150(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="DesignRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709">
+   <Name>标识符的大小写应当正确</Name>
+   <Description>类型、命名空间和成员标识符应采用 Pascal 大小写格式。参数标识符应采用 Camel 大小写格式。这些标识符内由两个字母组成的首字母缩略词应全部大写，例如，应采用 System.IO，而不是 System.Io。由三个或更多个字母组成的首字母缩略词应采用 Pascal 大小写格式，例如，应采用 System.Xml，而不是 System.XML。Pascal 大小写格式约定每个单词的首字母大写，如 BackColor。Camel 大小写格式约定第一个单词的首字母小写，所有后续单词的首字母都大写，如 backgroundColor。尽管有些由两个字母组成的首字母缩略词习惯采用不完全大写形式，但不能因此而排斥此规则。例如，“DbConnection”很常见，但并不正确，应采用 DBConnection。为了与现有的非托管符号方案兼容，可能需要违反此规则。但一般来说，这些符号在使用它们的程序集之外不可见。</Description>
+   <Resolution Name="Assembly">更正程序集名称 {1} 中“{0}”的大小写，将其改为“{2}”。</Resolution>
+   <Resolution Name="Member">更正成员名称 {1} 中“{0}”的大小写，将其改为“{2}”。</Resolution>
+   <Resolution Name="MemberAbbreviation">更正成员名称 {1} 中“{0}”的大小写，将其改为“{2}”。“{2}”是一个缩写词，因此无需遵守首字母缩略词大小写规则。</Resolution>
+   <Resolution Name="MemberParameter">在成员 {0} 中，更正参数名称 {2} 中“{1}”的大小写，将其改为“{3}”。</Resolution>
+   <Resolution Name="Namespace">更正命名空间名称“{1}”中“{0}”的大小写，将其改为“{2}”。</Resolution>
+   <Resolution Name="Type">更正类型名称 {1} 中“{0}”的大小写，将其改为“{2}”。</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/ms182240(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="85">Error</MessageLevel>
+   <File Name="NamingRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="IdentifiersShouldDifferByMoreThanCase" Category="Microsoft.Naming" CheckId="CA1708">
+   <Name>标识符应以大小写之外的差别进行区分</Name>
+   <Description>所使用的名称不应仅通过大小写差别来保持其唯一性。不论使用区分大小写的语言还是不区分大小写的语言，组件都必须完全可用。如果除大小写外其他上下文均相同，则不区分大小写的语言将无法区分两个名称，因此组件必须避免出现这种情况。</Description>
+   <Resolution Name="Member">更改成员名 {0} 和“{1}”，使它们的差别不仅仅在于大小写。</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/ms182242(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="NamingRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707">
+   <Name>标识符不应包含下划线</Name>
+   <Description>指定标识符时不要使用下划线。系统为应用程序生成的某些 Visual Studio 标识符会包含下划线字符。通常情况下应避免在公共标识符中使用下划线字符。</Description>
+   <Resolution Name="MemberParameter">在成员 {0} 中，从参数名称 {1} 中移除下划线。</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/ms182245(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="NamingRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="ImplementIDisposableCorrectly" Category="Microsoft.Design" CheckId="CA1063">
+   <Name>正确实现 IDisposable</Name>
+   <Description>所有 IDisposable 类型都应正确实现 Dispose 模式。</Description>
+   <Resolution Name="DisposeImplementation">修改 {0}，使它先调用 Dispose(true)，然后对当前对象实例(在 Visual Basic 中为“this”或“Me”)调用 GC.SuppressFinalize，最后返回。</Resolution>
+   <Resolution Name="ProvideDisposeBool">对 {0} 提供 Dispose(bool) 的可重写实现或将该类型标记为密封。对 Dispose(false) 的调用应仅清理本机资源。对 Dispose(true) 的调用应既清理托管资源又清理本机资源。</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/ms244737(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="DesignRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="InitializeReferenceTypeStaticFieldsInline" Category="Microsoft.Performance" CheckId="CA1810">
+   <Name>初始化内联引用类型静态字段</Name>
+   <Description>声明静态字段时，应初始化这些字段。初始化显式静态构造函数中的静态数据将导致代码性能较差。</Description>
+   <Resolution Name="Default">声明 {0} 中的静态字段时应初始化所有这些字段，并移除显式静态构造函数。</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/ms182275(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="90">CriticalWarning</MessageLevel>
+   <File Name="PerformanceRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="MarkAssembliesWithClsCompliant" Category="Microsoft.Design" CheckId="CA1014">
+   <Name>用 CLSCompliantAttribute 标记程序集</Name>
+   <Description>程序集应使用 CLSCompliant 属性显式说明其 ClS 遵从性。没有此属性的程序集不符合 CLS。即使程序集、模块或类型的某些部分不符合 CLS，这些程序集、模块或类型本身也可以是符合 CLS 的。适用下列规则: 1) 如果元素标记为 CLSCompliant，则所有不符合 CLS 的成员都必须有参数设置为 false 的 CLSCompliant 属性。2) 对于每个不符合 CLS 的成员，都必须提供一个相应的符合 CLS 的备选成员。</Description>
+   <Resolution Name="Default">使用 CLSCompliant(true)来标记 {0}，因为它公开外部可见的类型。</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/ms182156(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="DesignRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822">
+   <Name>将成员标记为 static</Name>
+   <Description>不访问实例数据或调用实例方法的方法可标记为 Static (在 Visual Basic 中为 Shared)。这样，编译器会向这些成员发出非虚拟调用站点，以防止在运行时对每个调用进行旨在确保当前对象指针为非 null 的检查。这样可以使对性能比较敏感的代码获得显著的性能提升。在某些情况下，无法访问当前对象实例表明存在正确性问题。</Description>
+   <Resolution Name="Default">从未使用 {0} 的“this”参数(Visual Basic 中为“Me”)。根据需要，将成员标记为 static (Visual Basic 中为“Shared”)，或者在方法体或至少一个属性访问器中使用“this”/“Me”。</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/ms245046(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Warning</MessageLevel>
+   <File Name="PerformanceRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="OperationsShouldNotOverflow" Category="Microsoft.Usage" CheckId="CA2233">
+   <Name>运算不应溢出</Name>
+   <Description>在没有首先验证操作数以防止溢出前，不应执行算数运算。</Description>
+   <Resolution Name="Default">更正 {1} 中运算“{0}”的潜在溢出。</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/ms182354(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">CriticalWarning</MessageLevel>
+   <File Name="UsageRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="PropertiesShouldNotBeWriteOnly" Category="Microsoft.Design" CheckId="CA1044">
+   <Name>属性不应是只写的</Name>
+   <Description>只写属性通常表示设计有缺陷。</Description>
+   <Resolution Name="AddGetter">由于属性 {0} 是只写的，因此，要么添加一个可访问性高于或等于 setter 的 getter 属性，要么将该属性转换为方法。</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/ms182165(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="DesignRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="PropertiesShouldNotReturnArrays" Category="Microsoft.Performance" CheckId="CA1819">
+   <Name>属性不应返回数组</Name>
+   <Description>返回数组的属性容易降低代码的效率。请考虑使用集合或将其转换为方法。有关详细信息，请参见设计指南。</Description>
+   <Resolution Name="Default">将 {0} 更改为返回集合或将其转换为方法。</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/0fss9skc(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="50">Warning</MessageLevel>
+   <File Name="PerformanceRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="PropertyNamesShouldNotMatchGetMethods" Category="Microsoft.Naming" CheckId="CA1721">
+   <Name>属性名不应与 get 方法冲突。</Name>
+   <Description>发现与某一属性同名的 Get 方法。Get 方法和属性的名称应能够明确区分其功能上的差异。有关如何选择属性名以区分于方法名的信息，请参阅设计指南。</Description>
+   <Resolution Name="BaseType">由于存在继承方法 {1}，属性名 {0} 会造成混淆。请重命名或移除该属性。</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/ms182253(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="NamingRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801">
+   <Name>检查未使用的参数</Name>
+   <Description>检查在非虚方法的方法体中未使用的参数，以确保不存在应该访问这些参数的情况。未使用的参数会带来维护和性能开销。有时，与该规则冲突可能说明方法中存在实现 Bug，即，该参数实际上应该已在方法体中使用了。如果该参数由于向后兼容性而必须存在，请忽略关于此规则的警告。</Description>
+   <Resolution Name="Default">从未用过 {1} 的参数 {0}。请移除该参数或在方法体中使用它。</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/ms182268(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Warning</MessageLevel>
+   <File Name="UsageRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="SetLocaleForDataTypes" Category="Microsoft.Globalization" CheckId="CA1306">
+   <Name>设置数据类型的区域设置</Name>
+   <Description>在多数情况下，应将 DataSet 和 DataTable 实例的 Locale 显式设置为 CultureInfo.InvariantCulture。在创建 DataSet 或 DataTable 实例时，将 Locale 设置为当前区域。在多数情况下，应将 Locale 设置为 CultureInfo.InvariantCulture，以保证所有区域中的排序行为都正确。</Description>
+   <Resolution Name="Default">只要 {1} 创建了 {0} 类型的实例，就必须设置这一 Locale 属性。</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/ms182188(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="90">Error</MessageLevel>
+   <File Name="GlobalizationRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="SpecifyCultureInfo" Category="Microsoft.Globalization" CheckId="CA1304">
+   <Name>指定 CultureInfo</Name>
+   <Description>如果存在一个采用 CultureInfo 参数的重载，则应始终调用该重载，而不调用未采用该参数的重载。CultureInfo 类型包含区域性特定的信息，这些信息是执行数字和字符串运算(如大小写转换、格式设置和字符串比较)所必需的。如果区域性之间的转换和分析行为应始终不变，请指定 CultureInfo.InvariantCulture，否则，请指定 CultureInfo.CurrentCulture。</Description>
+   <Resolution Name="Default">由于 {0} 的行为可能因当前用户的区域设置不同而不同，请将 {1} 中的此调用替换为对 {2} 的调用。如果要向用户显示 {2} 的结果，请将“CultureInfo.CurrentCulture”指定为“CultureInfo”参数；如果软件将存储和访问此结果(例如，要将它保留到磁盘或数据库中)，则指定“CultureInfo.InvariantCulture”。</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/ms182189(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="GlobalizationRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305">
+   <Name>指定 IFormatProvider</Name>
+   <Description>如果存在一个采用 IFormatProvider 参数的重载，则应始终调用该重载，而不调用未采用该参数的重载。运行时中的某些方法可以将值与字符串表示形式相互进行转换，并采用一个字符串参数。该参数中包含一个或多个称为格式说明符的字符，用于指示如何对值进行转换。如果格式说明符的含义因区域性而异，则格式设置对象提供在字符串表示形式中使用的实际字符。如果排序和比较行为不得因区域性而改变，请指定 CultureInfo.InvariantCulture，否则，请指定 CultureInfo.CurrentCulture。</Description>
+   <Resolution Name="Default">由于 {0} 的行为可能因当前用户的区域设置不同而不同，请将 {1} 中的此调用替换为对 {2} 的调用。如果要向用户显示 {2} 的结果，请将“CultureInfo.CurrentCulture”指定为“IFormatProvider”参数；另外，如果软件将存储和访问此结果(例如，要将它保留到磁盘或数据库中)，则指定“CultureInfo.InvariantCulture”。</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/ms182190(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="GlobalizationRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="StaticHolderTypesShouldNotHaveConstructors" Category="Microsoft.Design" CheckId="CA1053">
+   <Name>静态容器类型不应具有构造函数</Name>
+   <Description>不需要创建只定义静态成员的类型的实例。如果没有指定构造函数，许多编译器都会自动添加公共的默认构造函数。为了避免出现这种情况，可能需要添加一个空的私有构造函数。</Description>
+   <Resolution Name="Default">从 {0} 中移除公共构造函数。</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/ms182169(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="90">Error</MessageLevel>
+   <File Name="DesignRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="TestForEmptyStringsUsingStringLength" Category="Microsoft.Performance" CheckId="CA1820">
+   <Name>使用字符串长度测试是否有空字符串</Name>
+   <Description>若要测试是否有空字符串，请检查 String.Length 是否等于零。对于如 "".Equals(someString) 和 String.Empty.Equals(someString) 之类的构造，其效率低于字符串长度测试。请使用 someString.Length == 0 检查来替换它们。</Description>
+   <Resolution Name="IsNullOrEmpty">使用“String.IsNullOrEmpty”调用来替换 {1} 中的 {0} 调用。</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/ms182279(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Warning</MessageLevel>
+   <File Name="PerformanceRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="TypeNamesShouldNotMatchNamespaces" Category="Microsoft.Naming" CheckId="CA1724">
+   <Name>类型名不应与命名空间冲突</Name>
+   <Description>应避免标识符与命名空间名称整体或部分冲突。应首选能够描述类型的用途或内容的名称。</Description>
+   <Resolution Name="System">类型名 {0} 与在 .NET Framework 中定义的命名空间名称“{1}”整体或部分冲突。请重命名该类型以消除冲突。</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/ms182257(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="NamingRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="UsePropertiesWhereAppropriate" Category="Microsoft.Design" CheckId="CA1024">
+   <Name>在适用处使用属性</Name>
+   <Description>在大多数情况下，应使用属性而不是 Get/Set 方法。在下列情况下，方法比属性更可取: 第一，执行的是转换操作，操作开销大或具有显著的副作用；第二，执行的顺序很重要；第三，连续两次调用成员得到的结果不同；第四，静态成员却返回了可变的值；第五，成员返回了数组。</Description>
+   <Resolution Name="Default">如果可行，请将 {0} 改为属性。</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/ms182181(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="DesignRules.dll" Version="9.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">类别</String>
+  <String Key="Certainty">确定性</String>
+  <String Key="CollapseAll">全部折叠</String>
+  <String Key="CheckId">检查 ID</String>
+  <String Key="Error">错误</String>
+  <String Key="Errors">错误</String>
+  <String Key="ExpandAll">全部展开</String>
+  <String Key="Help">帮助</String>
+  <String Key="Line">行</String>
+  <String Key="Messages">消息</String>
+  <String Key="LocationNotStoredInPdb">[位置未存储在 Pdb 中]</String>
+  <String Key="Project">项目</String>
+  <String Key="Resolution">解析</String>
+  <String Key="Rule">规则</String>
+  <String Key="RuleFile">规则文件</String>
+  <String Key="RuleDescription">规则说明</String>
+  <String Key="Source">源</String>
+  <String Key="Status">状态</String>
+  <String Key="Target">目标</String>
+  <String Key="Warning">警告</String>
+  <String Key="Warnings">警告</String>
+  <String Key="ReportTitle">代码分析报告</String>
+ </Localized>
+</FxCopReport>

@@ -1,0 +1,5 @@
+F:\orm学习\项目系统练习\WMSDAL\bin\x86\Debug\WMSDAL.dll
+F:\orm学习\项目系统练习\WMSDAL\bin\x86\Debug\WMSDAL.pdb
+F:\orm学习\项目系统练习\WMSDAL\obj\x86\Debug\WMSDAL.dll
+F:\orm学习\项目系统练习\WMSDAL\obj\x86\Debug\WMSDAL.pdb
+F:\orm学习\项目系统练习\WMSDAL\obj\x86\Debug\WMSDAL.csprojResolveAssemblyReference.cache

@@ -1,0 +1,81 @@
+I:\shared\项目\新平台\金运Code\金运\DAl\bin\x86\Debug\DAl.dll
+I:\shared\项目\新平台\金运Code\金运\DAl\bin\x86\Debug\DAl.pdb
+I:\shared\项目\新平台\金运Code\金运\DAl\obj\x86\Debug\DAl.dll
+I:\shared\项目\新平台\金运Code\金运\DAl\obj\x86\Debug\DAl.pdb
+I:\shared\项目\新平台\金运Code\金运\DAl\obj\x86\Debug\DAl.csprojResolveAssemblyReference.cache
+I:\shared\项目\新平台\诺力Code\诺力Code\DAl\bin\x86\Debug\DAl.dll
+I:\shared\项目\新平台\诺力Code\诺力Code\DAl\bin\x86\Debug\DAl.pdb
+I:\shared\项目\新平台\诺力Code\诺力Code\DAl\obj\x86\Debug\DAl.dll
+I:\shared\项目\新平台\诺力Code\诺力Code\DAl\obj\x86\Debug\DAl.pdb
+I:\shared\项目\新平台\诺力Code\诺力Code\DAl\obj\x86\Debug\DAl.csprojResolveAssemblyReference.cache
+I:\shared\项目\新平台\诺力Code\NuoLi\DAl\bin\x86\Debug\DAl.dll
+I:\shared\项目\新平台\诺力Code\NuoLi\DAl\bin\x86\Debug\DAl.pdb
+I:\shared\项目\新平台\诺力Code\NuoLi\DAl\obj\x86\Debug\DAl.csprojResolveAssemblyReference.cache
+I:\shared\项目\新平台\诺力Code\NuoLi\DAl\obj\x86\Debug\DAl.dll
+I:\shared\项目\新平台\诺力Code\NuoLi\DAl\obj\x86\Debug\DAl.pdb
+I:\shared\项目\新平台\诺力Code\NuoLi\DAl\bin\x86\Debug\log4net.dll
+I:\shared\项目\新平台\诺力Code\NuoLi\DAl\bin\x86\Debug\NBear.Core.dll
+I:\shared\项目\新平台\诺力Code\NuoLi\DAl\bin\x86\Debug\NBear.Mapping.dll
+D:\shared\项目\新平台\诺力Code\NuoLi\DAl\bin\x86\Debug\DAl.dll
+D:\shared\项目\新平台\诺力Code\NuoLi\DAl\bin\x86\Debug\DAl.pdb
+D:\shared\项目\新平台\诺力Code\NuoLi\DAl\bin\x86\Debug\log4net.dll
+D:\shared\项目\新平台\诺力Code\NuoLi\DAl\bin\x86\Debug\NBear.Core.dll
+D:\shared\项目\新平台\诺力Code\NuoLi\DAl\bin\x86\Debug\NBear.Mapping.dll
+D:\shared\项目\新平台\诺力Code\NuoLi\DAl\obj\x86\Debug\DAl.dll
+D:\shared\项目\新平台\诺力Code\NuoLi\DAl\obj\x86\Debug\DAl.pdb
+D:\shared\项目\新平台\诺力Code\NuoLi - svn\DAl\bin\x86\Debug\DAl.dll
+D:\shared\项目\新平台\诺力Code\NuoLi - svn\DAl\bin\x86\Debug\DAl.pdb
+D:\shared\项目\新平台\诺力Code\NuoLi - svn\DAl\bin\x86\Debug\log4net.dll
+D:\shared\项目\新平台\诺力Code\NuoLi - svn\DAl\bin\x86\Debug\NBear.Core.dll
+D:\shared\项目\新平台\诺力Code\NuoLi - svn\DAl\bin\x86\Debug\NBear.Mapping.dll
+D:\shared\项目\新平台\诺力Code\NuoLi - svn\DAl\obj\x86\Debug\DAl.dll
+D:\shared\项目\新平台\诺力Code\NuoLi - svn\DAl\obj\x86\Debug\DAl.pdb
+D:\shared\项目\新平台\诺力Code\NuoLi - svn\DAl\obj\x86\Debug\DAl.csprojResolveAssemblyReference.cache
+E:\Work\项目\诺力\NuoLi - svn\DAl\bin\x86\Debug\DAl.dll
+E:\Work\项目\诺力\NuoLi - svn\DAl\bin\x86\Debug\DAl.pdb
+E:\Work\项目\诺力\NuoLi - svn\DAl\bin\x86\Debug\log4net.dll
+E:\Work\项目\诺力\NuoLi - svn\DAl\bin\x86\Debug\NBear.Core.dll
+E:\Work\项目\诺力\NuoLi - svn\DAl\bin\x86\Debug\NBear.Mapping.dll
+E:\Work\项目\诺力\NuoLi - svn\DAl\obj\x86\Debug\DAl.csprojResolveAssemblyReference.cache
+E:\Work\项目\诺力\NuoLi - svn\DAl\obj\x86\Debug\DAl.dll
+E:\Work\项目\诺力\NuoLi - svn\DAl\obj\x86\Debug\DAl.pdb
+D:\wk\WMS申报\code\NuoLi - svn - notify\DAl\bin\x86\Debug\DAl.dll
+D:\wk\WMS申报\code\NuoLi - svn - notify\DAl\bin\x86\Debug\DAl.pdb
+D:\wk\WMS申报\code\NuoLi - svn - notify\DAl\bin\x86\Debug\log4net.dll
+D:\wk\WMS申报\code\NuoLi - svn - notify\DAl\bin\x86\Debug\NBear.Core.dll
+D:\wk\WMS申报\code\NuoLi - svn - notify\DAl\bin\x86\Debug\NBear.Mapping.dll
+D:\wk\WMS申报\code\NuoLi - svn - notify\DAl\obj\x86\Debug\DAl.csprojResolveAssemblyReference.cache
+D:\wk\WMS申报\code\NuoLi - svn - notify\DAl\obj\x86\Debug\DAl.dll
+D:\wk\WMS申报\code\NuoLi - svn - notify\DAl\obj\x86\Debug\DAl.pdb
+E:\Project\诺力外围系统\code\DAl\bin\x86\Debug\DAl.dll
+E:\Project\诺力外围系统\code\DAl\bin\x86\Debug\DAl.pdb
+E:\Project\诺力外围系统\code\DAl\bin\x86\Debug\log4net.dll
+E:\Project\诺力外围系统\code\DAl\bin\x86\Debug\NBear.Core.dll
+E:\Project\诺力外围系统\code\DAl\bin\x86\Debug\NBear.Mapping.dll
+E:\Project\诺力外围系统\code\DAl\obj\x86\Debug\DAl.dll
+E:\Project\诺力外围系统\code\DAl\obj\x86\Debug\DAl.pdb
+E:\Project\诺力外围系统\code\DAl\obj\x86\Debug\DAl.csprojResolveAssemblyReference.cache
+E:\Project\诺力外贸系统\code\DAl\bin\x86\Debug\DAl.dll
+E:\Project\诺力外贸系统\code\DAl\bin\x86\Debug\DAl.pdb
+E:\Project\诺力外贸系统\code\DAl\bin\x86\Debug\log4net.dll
+E:\Project\诺力外贸系统\code\DAl\bin\x86\Debug\NBear.Core.dll
+E:\Project\诺力外贸系统\code\DAl\bin\x86\Debug\NBear.Mapping.dll
+E:\Project\诺力外贸系统\code\DAl\obj\x86\Debug\DAl.csprojResolveAssemblyReference.cache
+E:\Project\诺力外贸系统\code\DAl\obj\x86\Debug\DAl.dll
+E:\Project\诺力外贸系统\code\DAl\obj\x86\Debug\DAl.pdb
+F:\DataBase\诺力外贸系统\code\DAl\bin\x86\Debug\DAl.dll
+F:\DataBase\诺力外贸系统\code\DAl\bin\x86\Debug\DAl.pdb
+F:\DataBase\诺力外贸系统\code\DAl\bin\x86\Debug\log4net.dll
+F:\DataBase\诺力外贸系统\code\DAl\bin\x86\Debug\NBear.Core.dll
+F:\DataBase\诺力外贸系统\code\DAl\bin\x86\Debug\NBear.Mapping.dll
+F:\DataBase\诺力外贸系统\code\DAl\obj\x86\Debug\DAl.dll
+F:\DataBase\诺力外贸系统\code\DAl\obj\x86\Debug\DAl.pdb
+F:\DataBase\诺力外贸系统\code\DAl\obj\x86\Debug\DAl.csprojResolveAssemblyReference.cache
+F:\诺力外贸系统\code\DAl\bin\x86\Debug\DAl.dll
+F:\诺力外贸系统\code\DAl\bin\x86\Debug\DAl.pdb
+F:\诺力外贸系统\code\DAl\bin\x86\Debug\log4net.dll
+F:\诺力外贸系统\code\DAl\bin\x86\Debug\NBear.Core.dll
+F:\诺力外贸系统\code\DAl\bin\x86\Debug\NBear.Mapping.dll
+F:\诺力外贸系统\code\DAl\obj\x86\Debug\DAl.dll
+F:\诺力外贸系统\code\DAl\obj\x86\Debug\DAl.pdb
+F:\诺力外贸系统\code\DAl\obj\x86\Debug\DAl.csprojResolveAssemblyReference.cache

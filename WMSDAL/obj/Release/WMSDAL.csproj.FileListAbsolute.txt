@@ -1,0 +1,4 @@
+F:\WingDell\WMSDAL\bin\Release\WMSDAL.dll
+F:\WingDell\WMSDAL\bin\Release\WMSDAL.pdb
+F:\WingDell\WMSDAL\obj\Release\WMSDAL.dll
+F:\WingDell\WMSDAL\obj\Release\WMSDAL.pdb

@@ -1,0 +1,14 @@
+F:\项目\DAl\DAl\DAl\obj\Debug\ResolveAssemblyReference.cache
+F:\项目\DAl\DAl\DAl\bin\Debug\DAl.dll
+F:\项目\DAl\DAl\DAl\bin\Debug\DAl.pdb
+F:\项目\DAl\DAl\DAl\obj\Debug\DAl.dll
+F:\项目\DAl\DAl\DAl\obj\Debug\DAl.pdb
+F:\项目\DAl\DAl\DAl\bin\Debug\log4net.dll
+F:\项目\拜耳\德骼拜尔订单系统\DAl\bin\Debug\DAl.dll
+F:\项目\拜耳\德骼拜尔订单系统\DAl\bin\Debug\DAl.pdb
+F:\项目\拜耳\德骼拜尔订单系统\DAl\bin\Debug\log4net.dll
+F:\项目\拜耳\德骼拜尔订单系统\DAl\obj\Debug\ResolveAssemblyReference.cache
+F:\项目\拜耳\德骼拜尔订单系统\DAl\obj\Debug\DAl.dll
+F:\项目\拜耳\德骼拜尔订单系统\DAl\obj\Debug\DAl.pdb
+F:\项目\拜耳\德骼拜尔订单系统\DAl\bin\Debug\NBear.Core.dll
+F:\项目\拜耳\德骼拜尔订单系统\DAl\bin\Debug\NBear.Mapping.dll

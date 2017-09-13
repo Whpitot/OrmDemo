@@ -1,0 +1,10 @@
+F:\orm学习\项目系统练习\WMSModel\bin\x86\Debug\WMSModel.dll
+F:\orm学习\项目系统练习\WMSModel\bin\x86\Debug\WMSModel.pdb
+F:\orm学习\项目系统练习\WMSModel\bin\x86\Debug\Common.dll
+F:\orm学习\项目系统练习\WMSModel\bin\x86\Debug\WMSDAL.dll
+F:\orm学习\项目系统练习\WMSModel\bin\x86\Debug\WMSDAL.pdb
+F:\orm学习\项目系统练习\WMSModel\bin\x86\Debug\Common.pdb
+F:\orm学习\项目系统练习\WMSModel\obj\x86\Debug\WMSModel.csprojResolveAssemblyReference.cache
+F:\orm学习\项目系统练习\WMSModel\obj\x86\Debug\WMSModel.dll
+F:\orm学习\项目系统练习\WMSModel\obj\x86\Debug\WMSModel.pdb
+F:\orm学习\ORM权限系统的练习\WMSModel\obj\x86\Debug\WMSModel.csprojResolveAssemblyReference.cache

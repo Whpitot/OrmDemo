@@ -1,0 +1,111 @@
+F:\项目\顾地\DAl\bin\Debug\DAl.dll
+F:\项目\顾地\DAl\bin\Debug\DAl.pdb
+F:\项目\顾地\DAl\obj\Debug\ResolveAssemblyReference.cache
+F:\项目\顾地\DAl\obj\Debug\DAl.dll
+F:\项目\顾地\DAl\obj\Debug\DAl.pdb
+F:\项目\拜耳\德骼拜尔订单系统\DAl\bin\Debug\DAl.dll
+F:\项目\拜耳\德骼拜尔订单系统\DAl\bin\Debug\DAl.pdb
+F:\项目\拜耳\德骼拜尔订单系统\DAl\bin\Debug\log4net.dll
+F:\项目\拜耳\德骼拜尔订单系统\DAl\obj\Debug\ResolveAssemblyReference.cache
+F:\项目\拜耳\德骼拜尔订单系统\DAl\obj\Debug\DAl.dll
+F:\项目\拜耳\德骼拜尔订单系统\DAl\obj\Debug\DAl.pdb
+F:\项目\中小型企业\zxxMS\fwzx\DAl\bin\Debug\DAl.dll
+F:\项目\中小型企业\zxxMS\fwzx\DAl\bin\Debug\DAl.pdb
+F:\项目\中小型企业\zxxMS\fwzx\DAl\obj\Debug\ResolveAssemblyReference.cache
+F:\项目\中小型企业\zxxMS\fwzx\DAl\obj\Debug\DAl.dll
+F:\项目\中小型企业\zxxMS\fwzx\DAl\obj\Debug\DAl.pdb
+F:\项目\八一生产管理系统\scgl\DAl\bin\Debug\DAl.dll
+F:\项目\八一生产管理系统\scgl\DAl\bin\Debug\DAl.pdb
+F:\项目\八一生产管理系统\scgl\DAl\bin\Debug\log4net.dll
+F:\项目\八一生产管理系统\scgl\DAl\bin\Debug\NBear.Core.dll
+F:\项目\八一生产管理系统\scgl\DAl\bin\Debug\NBear.Mapping.dll
+F:\项目\八一生产管理系统\scgl\DAl\obj\Debug\ResolveAssemblyReference.cache
+F:\项目\八一生产管理系统\scgl\DAl\obj\Debug\DAl.dll
+F:\项目\八一生产管理系统\scgl\DAl\obj\Debug\DAl.pdb
+E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\bin\Debug\DAl.dll
+E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\bin\Debug\DAl.pdb
+E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\obj\Debug\ResolveAssemblyReference.cache
+E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\obj\Debug\DAl.dll
+E:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\obj\Debug\DAl.pdb
+D:\fwzx\DAl\bin\Debug\DAl.dll
+D:\fwzx\DAl\bin\Debug\DAl.pdb
+D:\fwzx\DAl\obj\Debug\ResolveAssemblyReference.cache
+D:\fwzx\DAl\obj\Debug\DAl.dll
+D:\fwzx\DAl\obj\Debug\DAl.pdb
+F:\研发中心文档\研发中心项目\武汉经信委中小企业服务超市项目\服务超市项目\项目源码\DAl\bin\Debug\DAl.dll
+F:\研发中心文档\研发中心项目\武汉经信委中小企业服务超市项目\服务超市项目\项目源码\DAl\bin\Debug\DAl.pdb
+F:\研发中心文档\研发中心项目\武汉经信委中小企业服务超市项目\服务超市项目\项目源码\DAl\obj\Debug\ResolveAssemblyReference.cache
+F:\研发中心文档\研发中心项目\武汉经信委中小企业服务超市项目\服务超市项目\项目源码\DAl\obj\Debug\DAl.dll
+F:\研发中心文档\研发中心项目\武汉经信委中小企业服务超市项目\服务超市项目\项目源码\DAl\obj\Debug\DAl.pdb
+F:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\bin\Debug\DAl.dll
+F:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\bin\Debug\DAl.pdb
+F:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\obj\Debug\ResolveAssemblyReference.cache
+F:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\obj\Debug\DAl.dll
+F:\研发中心文档\研发中心项目\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\obj\Debug\DAl.pdb
+F:\开发程序\项目源码\DAl\bin\Debug\DAl.dll
+F:\开发程序\项目源码\DAl\bin\Debug\DAl.pdb
+F:\开发程序\项目源码\DAl\obj\Debug\ResolveAssemblyReference.cache
+F:\开发程序\项目源码\DAl\obj\Debug\DAl.dll
+F:\开发程序\项目源码\DAl\obj\Debug\DAl.pdb
+C:\Documents and Settings\Administrator\桌面\temp\tt\项目源码t\项目源码\DAl\bin\Debug\DAl.dll
+C:\Documents and Settings\Administrator\桌面\temp\tt\项目源码t\项目源码\DAl\bin\Debug\DAl.pdb
+C:\Documents and Settings\Administrator\桌面\temp\tt\项目源码t\项目源码\DAl\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\temp\tt\项目源码t\项目源码\DAl\obj\Debug\DAl.dll
+C:\Documents and Settings\Administrator\桌面\temp\tt\项目源码t\项目源码\DAl\obj\Debug\DAl.pdb
+E:\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\bin\Debug\DAl.dll
+E:\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\bin\Debug\DAl.pdb
+E:\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\obj\Debug\ResolveAssemblyReference.cache
+E:\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\obj\Debug\DAl.dll
+E:\仙桃八一项目\生产成本与生产计划管理\项目源码\DAl\obj\Debug\DAl.pdb
+C:\Documents and Settings\Administrator\桌面\20101231\项目源码\DAl\bin\Debug\DAl.dll
+C:\Documents and Settings\Administrator\桌面\20101231\项目源码\DAl\bin\Debug\DAl.pdb
+C:\Documents and Settings\Administrator\桌面\20101231\项目源码\DAl\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\20101231\项目源码\DAl\obj\Debug\DAl.dll
+C:\Documents and Settings\Administrator\桌面\20101231\项目源码\DAl\obj\Debug\DAl.pdb
+E:\湖北八一\20101231\项目源码\DAl\bin\Debug\DAl.dll
+E:\湖北八一\20101231\项目源码\DAl\bin\Debug\DAl.pdb
+E:\湖北八一\20101231\项目源码\DAl\obj\Debug\ResolveAssemblyReference.cache
+E:\湖北八一\20101231\项目源码\DAl\obj\Debug\DAl.dll
+E:\湖北八一\20101231\项目源码\DAl\obj\Debug\DAl.pdb
+E:\湖北八一\20110222\20110211toxiantao\项目源码\DAl\bin\Debug\DAl.dll
+E:\湖北八一\20110222\20110211toxiantao\项目源码\DAl\bin\Debug\DAl.pdb
+E:\湖北八一\20110222\20110211toxiantao\项目源码\DAl\obj\Debug\ResolveAssemblyReference.cache
+E:\湖北八一\20110222\20110211toxiantao\项目源码\DAl\obj\Debug\DAl.dll
+E:\湖北八一\20110222\20110211toxiantao\项目源码\DAl\obj\Debug\DAl.pdb
+E:\湖北八一\20110304\20110211toxiantao\项目源码\DAl\bin\Debug\DAl.dll
+E:\湖北八一\20110304\20110211toxiantao\项目源码\DAl\bin\Debug\DAl.pdb
+E:\湖北八一\20110304\20110211toxiantao\项目源码\DAl\obj\Debug\ResolveAssemblyReference.cache
+E:\湖北八一\20110304\20110211toxiantao\项目源码\DAl\obj\Debug\DAl.dll
+E:\湖北八一\20110304\20110211toxiantao\项目源码\DAl\obj\Debug\DAl.pdb
+C:\Documents and Settings\Administrator\桌面\项目源码\DAl\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\项目源码\DAl\obj\Debug\DAl.dll
+C:\Documents and Settings\Administrator\桌面\项目源码\DAl\bin\Debug\DAl.dll
+C:\Documents and Settings\Administrator\桌面\项目源码\DAl\bin\Debug\DAl.pdb
+C:\Documents and Settings\Administrator\桌面\项目源码\DAl\obj\Debug\DAl.pdb
+E:\金运\项目源码\DAl\bin\Debug\DAl.dll
+E:\金运\项目源码\DAl\bin\Debug\DAl.pdb
+E:\金运\项目源码\DAl\obj\Debug\ResolveAssemblyReference.cache
+E:\金运\项目源码\DAl\obj\Debug\DAl.dll
+E:\金运\项目源码\DAl\obj\Debug\DAl.pdb
+F:\金运\DAl\bin\Debug\DAl.dll
+F:\金运\DAl\bin\Debug\DAl.pdb
+F:\金运\DAl\obj\Debug\ResolveAssemblyReference.cache
+F:\金运\DAl\obj\Debug\DAl.dll
+F:\金运\DAl\obj\Debug\DAl.pdb
+F:\个人\金运\DAl\bin\Debug\DAl.dll
+F:\个人\金运\DAl\bin\Debug\DAl.pdb
+F:\个人\金运\DAl\obj\Debug\ResolveAssemblyReference.cache
+F:\个人\金运\DAl\obj\Debug\DAl.dll
+F:\个人\金运\DAl\obj\Debug\DAl.pdb
+I:\shared\项目\新平台\金运Code\金运\DAl\bin\Debug\DAl.dll
+I:\shared\项目\新平台\金运Code\金运\DAl\bin\Debug\DAl.pdb
+I:\shared\项目\新平台\金运Code\金运\DAl\obj\Debug\DAl.dll
+I:\shared\项目\新平台\金运Code\金运\DAl\obj\Debug\DAl.pdb
+D:\shared\项目\新平台\诺力Code\NuoLi\DAl\bin\Debug\DAl.dll
+D:\shared\项目\新平台\诺力Code\NuoLi\DAl\bin\Debug\DAl.pdb
+D:\shared\项目\新平台\诺力Code\NuoLi\DAl\bin\Debug\log4net.dll
+D:\shared\项目\新平台\诺力Code\NuoLi\DAl\bin\Debug\NBear.Core.dll
+D:\shared\项目\新平台\诺力Code\NuoLi\DAl\bin\Debug\NBear.Mapping.dll
+D:\shared\项目\新平台\诺力Code\NuoLi\DAl\obj\Debug\DAl.csprojResolveAssemblyReference.cache
+D:\shared\项目\新平台\诺力Code\NuoLi\DAl\obj\Debug\DAl.dll
+D:\shared\项目\新平台\诺力Code\NuoLi\DAl\obj\Debug\DAl.pdb

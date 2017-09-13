@@ -1,0 +1,9 @@
+F:\WingDell\WMSModel\bin\Release\WMSModel.dll
+F:\WingDell\WMSModel\bin\Release\WMSModel.pdb
+F:\WingDell\WMSModel\bin\Release\Common.dll
+F:\WingDell\WMSModel\bin\Release\WMSDAL.dll
+F:\WingDell\WMSModel\bin\Release\WMSDAL.pdb
+F:\WingDell\WMSModel\bin\Release\Common.pdb
+F:\WingDell\WMSModel\obj\Release\WMSModel.csprojResolveAssemblyReference.cache
+F:\WingDell\WMSModel\obj\Release\WMSModel.dll
+F:\WingDell\WMSModel\obj\Release\WMSModel.pdb
